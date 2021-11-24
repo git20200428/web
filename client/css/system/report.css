@@ -1,0 +1,12 @@
+.reportPanel {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+}
+
+.reportToolContent {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}

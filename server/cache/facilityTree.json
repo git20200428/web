@@ -1,0 +1,127 @@
+{
+  "ne": {
+    "type": "container",
+    "ypath": "ne",
+    "tpath": "ne",
+    "chassis": {
+      "type": "list",
+      "key": "name",
+      "ypath": "ne.equipment.chassis",
+      "tpath": "ne.chassis",
+      "slot": {
+        "type": "list",
+        "key": "name",
+        "ypath": "ne.equipment.chassis.slot",
+        "nochange": "true",
+        "tpath": "ne.chassis.slot",
+        "card": {
+          "type": "list",
+          "key": "name",
+          "ypath": "ne.equipment.card",
+          "tpath": "ne.chassis.slot.card",
+          "refAkey": "slot-name",
+          "refZkey": "ne.chassis.slot.name",
+          "port": {
+            "type": "list",
+            "key": "name",
+            "ypath": "ne.equipment.card.port",
+            "nochange": "true",
+            "skipWhen": "parent-port",
+            "port": {
+              "type": "list",
+              "key": "name",
+              "ypath": "ne.equipment.card.port",
+              "refAkey": "parent-port",
+              "refZkey": "ne.chassis.slot.card.port.name",
+              "refMatch": [{
+                "Akey": "AID",
+                "Zkey": "AID"
+              }],
+              "trib-ptp": {
+                "type": "list",
+                "key": "name",
+                "ypath": "ne.facilities.trib-ptp",
+                "refAkey": "AID",
+                "refZkey": "ne.chassis.slot.card.port.port.AID",
+                "children": "supported-facilities"
+              }
+            },
+            "tom": {
+              "type": "container",
+              "key": "name",
+              "ypath": "ne.equipment.card.port.tom",
+              "nochange": "true"
+            },
+            "trib-ptp": {
+              "type": "list",
+              "key": "name",
+              "ypath": "ne.facilities.trib-ptp",
+              "refAkey": "AID",
+              "refZkey": "ne.chassis.slot.card.port.AID",
+              "children": "supported-facilities"
+            },
+            "line-ptp": {
+              "type": "list",
+              "key": "name",
+              "ypath": "ne.facilities.line-ptp",
+              "refAkey": "AID",
+              "refZkey": "ne.chassis.slot.card.port.AID",
+              "children": "supported-facilities"
+            },
+            "inventory": {
+              "type": "container",
+              "ypath": "ne.equipment.card.port.inventory",
+              "tpath": "ne.chassis.slot.card.port.inventory",
+              "nochange": "true"
+            }
+          },
+          "super-channel": {
+            "type": "list",
+            "key": "name",
+            "ypath": "ne.facilities.super-channel",
+            "refAkey": "supporting-card",
+            "refZkey": "ne.chassis.slot.card.name",
+            "children": "supported-facilities"
+          },
+          "super-channel-group": {
+            "type": "list",
+            "key": "name",
+            "ypath": "ne.facilities.super-channel-group",
+            "refAkey": "supporting-card",
+            "refZkey": "ne.chassis.slot.card.name"
+          },
+          "resources": {
+            "type": "container",
+            "ypath": "ne.equipment.card.resources",
+            "tpath": "ne.chassis.slot.card.resources",
+            "nochange": "true"
+          },
+          "controller-card": {
+            "type": "container",
+            "ypath": "ne.equipment.card.controller-card",
+            "tpath": "ne.chassis.slot.card.controller-card",
+            "nochange": "true"
+          }
+        },
+        "inventory": {
+          "type": "container",
+          "ypath": "ne.equipment.chassis.slot.inventory",
+          "tpath": "ne.chassis.slot.inventory",
+          "nochange": "true"
+        }
+      },
+      "inventory": {
+        "type": "container",
+        "ypath": "ne.equipment.chassis.inventory",
+        "tpath": "ne.chassis.inventory",
+        "nochange": "true"
+      }
+    },
+    "transfer-status": {
+      "type": "list",
+      "key": "name",
+      "ypath": "ne.system.transfer.transfer-status",
+      "tpath": "ne.transfer-status"
+    }
+  }
+}

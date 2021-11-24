@@ -1,0 +1,6 @@
+{
+    "invalid-session": "Invalid session!",
+    "password-expired": "Password has expired.",
+    "first-user-required": "There is no local user configured on NE. The first user to be logged in will be accepted as the initial user.",
+    "change-passwd-success": "Changing password succeeded."
+}

@@ -1,0 +1,13 @@
+/* diagram.css */
+.ols-diagram-component {
+    position: relative;
+    display: block;
+    border: solid 1px black;
+    background-color: cornsilk;
+
+}
+
+.ols-diagram-react-modal-content {
+    overflow: auto;
+}
+

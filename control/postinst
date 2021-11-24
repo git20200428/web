@@ -1,0 +1,3 @@
+systemctl enable webgui.service
+systemctl daemon-reload
+systemctl start webgui.service

@@ -1,0 +1,279 @@
+#webGUIApp {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 33px 1fr;
+    gap: 1px;
+    background: rgb(143, 199, 238);
+}
+
+#headContent {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    overflow: visible;
+    background: linear-gradient(#9ec1d9, #2e5366);
+}
+
+.headItem {
+    border-top: 5px solid rgba(0, 0, 0, 0);
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+    transition: 1s;
+}
+
+.headIcon:hover {
+    border-bottom: 5px solid #FFC35A;
+}
+
+.headItemRight {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headAlarm {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    padding-top: 0 !important;
+}
+
+.headAlarm > a {
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 28px !important;
+    display: inline-block;
+    height: 30px;
+    margin-left: 0;
+    font-weight: bold;
+    transition: transform 0.35s linear;
+}
+
+.headAlarm > a:hover {
+    transform: scale(1.1);
+}
+
+.headLabel {
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+#mainContainer {
+    overflow: hidden;
+}
+
+.mcb-header {
+    height: 30px;
+}
+
+.mcb-header-right {
+    float: right;
+    child-align: right;
+}
+
+div.cbm-container {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.mcb-container {
+    max-height: 500px;
+}
+
+#react_relate_table {
+    flex: 1;
+    padding: 5px 0 0 5px;
+    display: flex;
+    overflow: auto;
+}
+
+.tab-panel-container {
+    flex: 1 0 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.related-data-table-div {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    width: 100%;
+}
+
+.up-color {
+    background-color: #009933 !important;
+}
+
+.down-color {
+    background-color: #ff4326 !important;
+}
+
+.lock-color {
+    background-color: #999999 !important;
+}
+
+.maintenance-color {
+    background-color: #ff00ff !important;
+}
+
+.enabled-bgColor {
+    border-color: #009933 !important;
+    background-color: #ccffe0 !important;
+}
+
+.disabled-bgColor {
+    border-color: #ff4326 !important;
+    background-color: #ffd6cc !important;
+}
+
+.lock-bgColor {
+    border-color: #999999 !important;
+    background-color: #eeeeee !important;
+}
+
+.maintenance-bgColor {
+    border-color: #ff00ff !important;
+    background-color: #ffccff !important;
+}
+
+.critical {
+    background-color: #f44 !important;
+}
+
+.major {
+    background-color: #fa0 !important;
+}
+
+.minor {
+    background-color: #fe0 !important;
+}
+
+.warning {
+    background-color: #66f !important;
+}
+
+.not-alarmed {
+    background-color: #800080 !important;
+}
+
+div.statistics-block {
+    child-align: middle;
+}
+
+div#chassisView {
+    cursor: pointer;
+}
+
+div.chassisViewDiv {
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+span.nav-text {
+    display: inline;
+}
+
+.content-div {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+}
+
+.content-header {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    padding: 0 30px;
+    position: relative;
+}
+
+.content-body {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-header .content-menu {
+    user-select: none;
+    height: 28px;
+    line-height: 28px;
+    margin: 2px 3px 4px 2px;
+    padding: 0 20px 7px 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: none;
+    transition: 0.3s;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+.content-header .content-menu-selected {
+    border-bottom: 3px solid #ffa200;
+    padding: 0 20px 4px 20px;
+}
+
+a:focus {
+    color: white;
+}
+
+.sidebar-frame {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.float-right {
+    font-size: 1em;
+}
+
+.float-right-2 {
+    font-size: 0.7em;
+    margin-left: 0.7em;
+}
+
+.icon-help:hover {
+    color: rgba(255, 72, 0, 0.863);
+}
+
+@keyframes turn{
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+    }
+    25% {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+    }
+    50% {
+        transform: rotate(180deg);
+        transform-origin: 50% 50%;
+    }
+    75% {
+        transform: rotate(270deg);
+        transform-origin: 50% 50%;
+    }
+    100% {
+        transform: rotate(360deg);
+        transform-origin: 50% 50%;
+    }
+}
+
+.icon-loading {
+    animation: turn 1s linear infinite;
+}

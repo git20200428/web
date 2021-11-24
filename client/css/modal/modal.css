@@ -1,0 +1,621 @@
+div.modalLayer {
+    width: 100%;
+    height: 100%;
+    background: rgba(80, 80, 80, 0.5);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+div.modalDivBox {
+    padding: 30px 30px 0 30px;
+    margin: auto;
+    align-content: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1001;
+    cursor: all-scroll;
+}
+
+div.modalDivBox > div {
+    cursor: auto;
+}
+
+div.closeBtn {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+
+/*div.modal-header > span.modal-close-btn{*/
+/*    display: block;*/
+/*    width: 12px;*/
+/*    height: 12px;*/
+/*    !*background: url("../../img/modal/closebtn.png") no-repeat;*!*/
+/*    background-size: 12px auto;*/
+/*    !*opacity: 0.4;*!*/
+/*    border-bottom: 0;*/
+/*    margin-top: -4px;*/
+/*    margin-right: -3px;*/
+/*}*/
+.form-tabel-close {
+    height: 41px;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+div.modal-header > a.modal-close-btn:hover {
+    /*opacity: 0.8;*/
+}
+
+div.closeBtn > a.modalDivCloseBtn:visited {
+    border-radius: 25px;
+}
+
+div.modalDiv {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div.react-modal-header {
+    /*padding-right: 7px;*/
+    /*margin-top: 7px;*/
+}
+
+.modal-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.modalDiv div {
+    text-align: center;
+}
+
+div.react-modal-title {
+    padding-left: 14px;
+    text-align: left !important;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+div.modalDivBody {
+    margin-bottom: 20px;
+    /*overflow: auto;*/
+}
+
+div.modalDivBody div.form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div.modalDivBody div.form-group > input, div.modalDivBody div.form-group > select {
+    line-height: 25px;
+    height: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.react-modal-foot {
+    text-align: right;
+}
+
+div.react-modal-foot > a.button {
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+div.react-modal-foot > a.okBtn {
+    width: 70px;
+}
+
+div.react-modal-foot > a.yesBtn {
+    margin-right: 10px;
+    width: 30%;
+}
+
+div.react-modal-foot > a.noBtn {
+    width: 30%;
+}
+
+div.react-warning-box {
+    padding-top: 30px;
+}
+
+div.react-warning-box > div.react-warning-img {
+    float: left;
+    margin-right: 20px;
+    width: 48px;
+    height: 100px;
+    margin-left: 30px;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    /*background-position: center center;*/
+}
+
+p.react-warning-message {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+canvas #portDiagram {
+    cursor: pointer;
+}
+
+.roadm-topo-canvas {
+    width: 100%;
+    height: 500px;
+    overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+    .react-modal-dialog-message {
+        width: 600px !important;
+        margin: 30px auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .react-modal-dialog-fctopo {
+        width: 700px;
+        margin: 30px auto;
+        height: 700px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .react-modal-dialog-fctopo {
+        width: 1200px;
+        margin: 30px auto;
+        height: 700px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .react-modal-dialog-fctopo {
+        width: 1580px;
+        margin: 30px auto;
+        height: 800px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .react-modal-dialog-fctopo {
+        width: 1900px;
+        margin: 30px auto;
+        height: 900px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 700px;
+        margin: 30px auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .modal-dialog {
+        width: 900px;
+        margin: 30px auto;
+    }
+}
+
+
+form.react-modal-form div.form-group {
+    margin-bottom: 0;
+}
+
+form.react-modal-form input, form.react-modal-form select {
+    height: 28px;
+    line-height: 28px;
+    padding: 1px 7px;
+    font-size: 12px;
+}
+
+form.react-modal-form input, form.react-modal-form textarea {
+    padding: 1px 11px;
+    font-size: 12px;
+}
+
+form.react-modal-form select.multiSelect, form.react-modal-form input[type=radio] {
+    height: auto;
+}
+
+form.react-modal-form label {
+    margin-bottom: 0;
+    padding-top: 7px !important;
+}
+
+form.react-modal-form fieldset {
+    padding: .35em .625em .75em;
+    /*margin-left: 50px;*/
+    /*margin-right: 10px;*/
+    width: 88%;
+    margin-left: 6%;
+}
+
+
+form.react-modal-form fieldset legend {
+    width: auto;
+    margin-bottom: auto;
+    border-bottom: 0;
+    font-size: 14px;
+}
+
+/*.fieldset-no-legend {*/
+/*    padding: .35em .625em .75em;*/
+/*    margin-left: 50px;*/
+/*    margin-top: 9px;*/
+/*}*/
+
+.form-head-table {
+    width: 100%;
+    margin-top: -5px;
+}
+
+.form-head-table-nohead {
+    width: 100%;
+    /*margin-left: 50px;*/
+    margin-bottom: 5px;
+}
+
+.first-space-td {
+    width: 10px;
+}
+
+.last-space-td {
+    width: 10px;
+}
+
+.form-table-td-2 {
+    width: 300px;
+}
+
+.form-label {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-image: none;
+}
+
+.modal-button {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.form-head-td {
+    width: 120px;
+    float: right;
+}
+
+.form-control {
+    display: block;
+    /*width: 90%;*/
+    height: 28px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-image: none;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    /*margin-bottom: 5px;*/
+}
+
+.form-control[disabled] {
+    cursor: auto !important;
+}
+
+.modal-label-font {
+    font-weight: bold;
+    /*family: 'microsoft yahei','arial', sans-serif;*/
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.form-head-div {
+    float: left;
+    display: inline;
+}
+
+.react-modal-foot:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.form-head-label-div {
+    margin-top: 6px;
+    min-width: 130px;
+}
+
+.container_div:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.react-trib-slot-div {
+    /*width: 90%;*/
+}
+
+div.react-trib-slot-div i.form-control-feedback {
+    right: 30px !important;
+}
+
+.has-feedback label.checkbox-inline i.form-control-feedback.glyphicon.glyphicon-ok,
+.has-feedback label.checkbox-inline i.form-control-feedback.glyphicon.glyphicon-remove {
+    right: -50px;
+}
+
+div.react-ping-trace-tool input.form-control {
+    height: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.form-group input[type=checkbox] {
+    height: 20px;
+    line-height: 20px;
+}
+
+.enum-list {
+    height: 60px !important;
+}
+
+fieldset.normal {
+    padding: .35em .625em .75em;
+    border: 1px solid #c0c0c0;
+}
+
+fieldset.normal legend {
+    width: auto;
+    margin-bottom: auto;
+    border-bottom: 0;
+    font-size: 14px;
+}
+
+fieldset.normal .checkbox-inline {
+    padding-top: 0;
+    padding-left: 20px;
+}
+
+.wizard_table_head {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wizard_table_content {
+    vertical-align: top;
+}
+
+.wizard_table_content_div {
+    width: 100%;
+    height: 100%;
+}
+
+
+.wizard_table_content_div_mask {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    /*z-index: 99999;*/
+    filter: alpha(Opacity=80);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 100;
+    background-color: #ffffff;
+}
+
+.wizard_table_td {
+    border-right: rgba(0, 0, 0, 0.15) 1px solid;
+    border-top: #000000 0 solid;
+    border-left: #000000 0 solid;
+    border-bottom: #000000 0 solid;
+}
+
+.modal_unit_label {
+    margin-left: -15px;
+    color: #337ab7;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/*style from bootstrap css*/
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    background-clip: padding-box;
+    /* border: 1px solid #999; */
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    /* -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5); */
+    /* box-shadow: 0 3px 9px rgba(0,0,0,.5); */
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.close {
+    float: right;
+}
+
+.modal-body {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -15px;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    /* margin-bottom: 0; */
+    text-align: right;
+}
+
+form.react-modal-form label {
+    margin-bottom: 0;
+    /* padding-top: 7px !important; */
+}
+
+.col-xs-4 {
+    float: left;
+    width: 33.33333333%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm-7 {
+    float: left;
+    width: 58.33333333%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.form-group:before,
+.form-group:after {
+    display: table;
+    clear: both;
+    content: " ";
+}
+
+.form-control {
+    width: 100%;
+    outline: none;
+}
+
+.control-label {
+    font-weight: bold;
+}
+
+#modal_btn_ok {
+    cursor: pointer;
+}
+
+.btn_disabled {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+
+.has-error .form-control {
+    border-color: #a94442;
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);*/
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+form.react-modal-form div.form-group.has-error {
+    margin-bottom: 5px;
+}
+
+/*change password input test icon*/
+.has-success .form-control-feedback,
+.has-success .pm-control-feedback,
+.has-success .multi-select-marked {
+    color: #3c763d;
+}
+
+.has-error .form-control-feedback,
+.has-error .pm-control-feedback,
+.has-error .multi-select-marked {
+    color: #a94442;
+}
+
+.form-control-feedback {
+    /*float: right;*/
+    position: absolute;
+    top: 8px;
+    right: 26px;
+    z-index: 2;
+    display: block;
+    /*width: 34px;*/
+    /*height: 34px;*/
+    /*line-height: 34px;*/
+    text-align: center;
+    pointer-events: none;
+}
+
+.pm-control-feedback {
+    /*float: right;*/
+    position: absolute;
+    top: 2px;
+    right: 16px;
+    z-index: 2;
+    display: block;
+    /*width: 34px;*/
+    /*height: 34px;*/
+    /*line-height: 34px;*/
+    text-align: center;
+    pointer-events: none;
+}
+
+/*about pop up box*/
+p {
+    margin: 0 0 10px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.loading_icon_div {
+    position: absolute;
+    /*left: 50%;*/
+    width: 30px;
+    height: 30px;
+    margin-top: -35px;
+    margin-left: 15px;
+    /*display: none;*/
+}
+
+.loading_icon {
+    display: none;
+}
+
+.required {
+    border-left: 4px solid #fa0;
+}
+
+
+
+
+
+

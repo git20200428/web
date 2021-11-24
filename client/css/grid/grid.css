@@ -1,0 +1,12 @@
+fieldset.react-fieldset {
+    padding: .35em .625em .75em;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+fieldset.react-fieldset legend {
+    width: auto;
+    margin-bottom: auto;
+    border-bottom: 0;
+    font-size: 14px;
+}

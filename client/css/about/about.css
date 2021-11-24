@@ -1,0 +1,74 @@
+﻿.about-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-main {
+    width: 600px;
+    height: 290px;
+    position: absolute;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+.aboutImg {
+    width: 100%;
+    height: 100%;
+}
+
+.about-head {
+    position: relative;
+}
+
+.about-foot {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    height: 40px;
+    line-height: 10px;
+}
+
+.about-foot p {
+    text-align: center;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.about-close-btn-div {
+    position: absolute;
+    right: 13px;
+    top: 8px;
+    color: #1296db;
+}
+
+.about-close-btn {
+    display: block;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    opacity: 1
+}
+
+.about_close_btn:hover {
+    opacity: 0.5
+}
+
+i.icon-lightbulb-o {
+    font-size: 12px;
+}

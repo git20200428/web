@@ -1,0 +1,814 @@
+.iconfont {
+    margin-right: 1.5px;
+}
+
+.head-menu-Btn {
+    color: #ffffff;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    cursor: pointer;
+}
+
+.dropdown-menufont {
+    position: relative;
+}
+
+.dropdown-menu-div {
+    display: none;
+    min-width: 150px;
+    position: fixed;
+    right:0px;
+    background-color: #5292b3;
+    border-radius: 4px;
+    padding-bottom: 1px;
+    z-index: 101;
+}
+
+.dropdown-menufont > a:hover,
+.export-menu-div > a:hover {
+    color: #ffffff;
+}
+
+
+
+.head-menu-a {
+    display: block;
+    margin-left: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.head-menu-icon,
+.head-menu-text {
+    color: #f8f8ff;
+    font-size: 13px;
+    user-select: none;
+}
+
+.head-menu-icon {
+    padding-left: 8px;
+}
+
+.sidebar-body > a:hover,
+.dropdown-menu-div > a:hover,
+.export-menu-div > a:hover {
+    background-color: #6fc1eb;
+}
+
+.export-menu-span {
+    position: relative;
+    font-size: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    height: 22px;
+    line-height: 20px;
+}
+
+.export-menu-a {
+    color: #ffffff;
+    display: inline-block;
+    height: 22px;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    font-size: 12px;
+}
+
+.export-menu-span > a:hover {
+    color: #ffffff;
+}
+
+.export-menu-div {
+    position: fixed;
+    display: none;
+    min-width: 120px;
+    line-height: 25px;
+    text-align: left;
+    overflow: visible !important;
+
+    border-radius: 4px;
+    background-color: #5292b3;
+    z-index: 101;
+}
+
+.export-dropdown-menu-div {
+    right: 30px !important;
+}
+
+.export-menu-file-a {
+    display: block;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    user-select: none;
+}
+
+.dropdown-menu-file-a {
+    padding-right: 10px;
+}
+
+.my-open > .export-menu-div,
+.my-open > .dropdown-menu-div,
+.my-open > .chassis-view-menu,
+.my-open > .my-form-content-list{
+    display: block;
+}
+
+.my-expand> .dropdown-menu-div{
+    right: 0px !important;
+}
+
+
+
+.my-hide span.nav-text {
+    display: none;
+}
+
+/*multi selector style*/
+.filter-multi-wrapper {
+    display: inline-flex;
+    line-height: 17px;
+    font-size: 12px;
+    text-align: left;
+    width: inherit;
+    position: fixed;
+}
+
+.modal-multi-wrapper {
+    /*display: inline-flex;*/
+    /*height: 28px;*/
+    float: left;
+    line-height: 27px;
+    font-size: 12px;
+    width: 50%;
+    padding: 0 15px;
+}
+
+div.modal-border {
+    border-radius: 4px;
+    border-color: rgb(204, 204, 204);
+}
+
+.pm-multi-wrapper {
+    display: inline-flex;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    width: 55.333333%;
+}
+
+.my-form-div {
+    position: relative;
+    /*display: inline-flex;*/
+    width: 100%;
+    background-color: #fffff9;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.my-form-div2 {
+    display: inline-flex;
+    /*flex:auto;*/
+    border: 1px solid rgb(170, 170, 170);
+    width: 100%;
+    user-select: none;
+    overflow: hidden;
+}
+
+.my-form-div2-color {
+    color: black;
+}
+
+.my-form-div-span {
+    padding-left: 10px;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: normal;
+    height: 20px;
+
+}
+
+.my-form-content-list {
+    display: none;
+    min-width: 150px;
+    max-height: 262px;
+    line-height: 17px;
+    width: auto;
+    position: fixed;
+    background-color: #fffff9;
+    padding-bottom: 1px;
+    overflow: hidden;
+    overflow-y: auto;
+    white-space: normal;
+    border: 1px solid #ccc;
+    z-index: 101;
+}
+table.myTable td div.my-form-content-list{
+    overflow-y: auto;
+}
+.my-form-content-list-a {
+    display: flex;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    color: #3c3c3c;
+    user-select: none;
+}
+
+.div-a-span01 {
+    display: inline-block;
+    width: 90%;
+}
+
+.div-a-span02 {
+    height: 17px;
+    line-height: 14px;
+    display: none;
+    /*margin-right: 10px;*/
+}
+
+.multi-select-marked {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+
+}
+
+
+.my-form-div > .required {
+    border-left: 4px solid #fa0;
+}
+
+/*multi selector style*/
+.my-col-sm-4 {
+    width: 33.33333333%;
+    float: left;
+}
+
+.my-col-label {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 41.66666667%;
+    max-width: 100%;
+}
+
+.my-col-select {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    width: 55.33333333%;
+    min-width: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font: inherit;
+}
+
+.my-input {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    width: 55.33333333%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font: inherit;
+}
+
+.has-error .my-input {
+    color: #a94442;
+    border-color: #a94442;
+}
+.has-error .modal-border {
+    color: #a94442;
+    border-color: #a94442;
+}
+
+.my-selected {
+    display: inline-block;
+}
+
+.react-table-tool-panel-btn-row:before {
+    display: table;
+    clear: both;
+    content: " ";
+}
+
+/*:after, :before {*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    box-sizing: border-box;*/
+/*}*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+/*icon css*/
+.icon-list1,
+.icon-home2 {
+    font-size: 18px;
+    line-height: 1.3333333;
+    font-weight: bold;
+}
+
+.icon-head {
+    cursor: pointer;
+}
+
+.icon-switch {
+    cursor: pointer;
+    color: #337ab7;
+}
+
+.icon-refresh {
+    color: #337ab7;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.icon-collapse-up3 {
+    display: inline-block;
+    margin-right: 20px;
+    color: #337ab7;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.icon-close {
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon-question {
+    color: #627bf7;
+    font-size: 20px;
+}
+
+span.icon-rotate-180 {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*table panel collapse*/
+.collapse.in {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.collapse {
+    display: none;
+}
+
+/*report css*/
+.col-sm-offset-5 {
+    margin-left: 41.66666667%;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    /*border-bottom: 1px solid transparent;*/
+    /*border-top-left-radius: 3px;*/
+    /*border-top-right-radius: 3px;*/
+    border-bottom: 1px solid transparent;
+    border-color: #ddd;
+}
+
+/*system sw textarea*/
+.float-left {
+    float: left;
+}
+
+textarea.form-control {
+    height: auto;
+    outline: none;
+}
+
+.margin-20 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.panel-head-line {
+    border-bottom: 1px solid transparent;
+    border-color: #ddd;
+}
+
+/*common css style*/
+.panel-body:after {
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+/*create  carriers select menu*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 12px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.open > .dropdown-menu {
+    display: block;
+}
+
+.form-control {
+    border-radius: 4px;
+    font: inherit;
+}
+
+.bootstrap-select.form-control {
+    border-color: #ccc;
+}
+
+.btn {
+    line-height: 1.42857143;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 12px;
+    white-space: nowrap;
+    border: 1px solid transparent;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    cursor: pointer;
+}
+
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    position: relative;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li > a > .text {
+    margin-right: 24px;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.btn .caret {
+    margin-left: 0;
+}
+
+/*.filter-option {*/
+/*    margin-top:5px;*/
+/*}*/
+.bootstrap-select > select {
+    position: absolute !important;
+    bottom: 0;
+    left: 50%;
+    display: block !important;
+    width: 0.5px !important;
+    height: 100% !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    border: none;
+}
+
+.bootstrap-select > .dropdown-toggle {
+    width: 100%;
+    padding-right: 25px;
+    z-index: 1;
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder {
+    color: #999;
+}
+
+.bootstrap-select.form-control {
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+}
+
+.bootstrap-select.btn-group .dropdown-menu {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.bootstrap-select.btn-group .dropdown-menu.inner {
+    position: static;
+    float: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.bootstrap-select.btn-group .dropdown-menu li a span.check-mark {
+    display: none;
+}
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.panel-body {
+    overflow: hidden;
+    width: 100%;
+}
+.rpctool-panel-body {
+    overflow: hidden;
+    width: 100%;
+    overflow: auto;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.col-sm-offset-4 {
+    margin-left: 33.33333333%;
+}
+
+html input[type=button] {
+    cursor: pointer;
+}
+
+input[type=button] {
+    font-size: 12px;
+}
+
+.my-col-sm {
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    text-align: center;
+}
+
+div.form-group {
+    white-space: nowrap;
+}
+
+div#radio-group {
+    display: flex;
+}
+
+select > option {
+    font-size: 12px;
+}
+
+.input-group {
+    display: flex;
+    white-space: nowrap;
+}
+
+span.icon-circle {
+    font-size: 14px;
+    margin-right: 0px;
+}
+
+.icon-home {
+    font-size: 18px;
+}
+table td div div.table-edit-cell-input-div span.paddingTop3{
+    height: 18px;
+    padding-top: 6px;
+}
+select.height20{
+    height: 20px;
+}
+
+/*table button*/
+.icon-row_edit_d, .icon-row_edit_e, .icon-row_create, .icon-row_default, .icon-restart, .icon-row_link,.icon-chrome,.icon-call,
+.icon-row_expand, .icon-row_contract, .icon-row_delete, .icon-row_editTime,
+.icon-row_resetPassword, .icon-prepare-upgrade, .icon-activate-file,
+.icon-row_clearInstance, .icon-upload, .icon-snapshot, .icon-run, .icon-alarm-on, .icon-rename{
+    color: #1296db;
+}
+
+.icon-row_edit_d, .icon-row_edit_e, .icon-row_expand, .icon-row_contract, .icon-row_default,
+.icon-prepare-upgrade, .icon-activate-file, .icon-row_editTime, .icon-row_resetPassword,
+.icon-row_clearInstance, .icon-upload, .icon-snapshot, .icon-run, .icon-alarm-on, .icon-rename{
+    font-weight: 600;
+}
+
+.icon-row_edit_d:hover, .icon-row_edit_e:hover, .icon-row_create:hover, .icon-row_default:hover,
+.icon-restart:hover, .icon-row_expand:hover, .icon-row_contract:hover, .icon-row_delete:hover,
+.icon-row_clearInstance:hover, .icon-prepare-upgrade:hover, .icon-activate-file:hover,
+.icon-upload:hover, .icon-snapshot:hover, .icon-row_resetPassword:hover,.icon-row_editTime:hover, .icon-run,
+.icon-alarm-on:hover, .icon-rename:hover{
+    cursor: pointer;
+}
+
+.normal-color {
+    color: #555;
+    background-color: #fff;
+}
+
+.disabled-color {
+    /*font-family: Arial;*/
+    color: #b7b5b5;
+    /*background-color: #eee;*/
+}
+
+.disabled-color:hover {
+    cursor: auto;
+}
+
+.icon-snapshot {
+    margin-left: 1px;
+    margin-right: 2px;
+}
+
+.side-background {
+    overflow: hidden;
+}
+
+.logo-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.logo-icon {
+    display: inline-block;
+    font-size: 26px;
+    position: relative;
+    top: -3px;
+    left: 15px;
+    background-image: linear-gradient(135deg, #ffff33 0%, #e85857 67%, #e54746 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.logo-text {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    left: 26px;
+    font-size: 22px;
+    color: white;
+}
+
+.marginLeft20 {
+    margin-left: 20px;
+}
+
+.marginLeft25 {
+    margin-left: 25px;
+}
+
+.marginLR {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.has-notRequired .form-control-feedback {
+    display: none;
+}
+
+.my-form-content-list-a:hover {
+    background-color: #0e90d2;
+}
+
+.small-block {
+    display: block;
+}
+small.small-block,
+small.help-block{
+    white-space: normal;
+}
+input.my-form-div-span{
+    border-width: 0;
+    outline: none;
+}
+
+#react-service-view-label {
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 25px;
+    display: inline-block;
+}
+#react-service-view-type, #react-service-view-entity {
+    font-size: 12px;
+    margin-right: 15px;
+    margin-left: auto;
+    display: inline-block;
+}
+.react-select{
+    width: 90%;
+}
+
+.relative-position{
+    position: relative;
+    white-space: nowrap;
+}
+.flex-relative-position{
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+}
+.move{
+    display: none;
+    position: absolute;
+    width: 30px;
+    right: 2px;
+    background: aliceblue;
+}
+.show > .move{
+    display: block;
+}
+
+.text-div {
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+}
+div> .minHeight300 {
+    min-height: 300px;
+}

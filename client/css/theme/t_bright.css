@@ -1,0 +1,1440 @@
+/*  Layout Theme ************* Start  */
+* {
+    scrollbar-face-color: rgb(232, 232, 232);
+    /*面子*/
+    scrollbar-arrow-color: rgb(232, 232, 232);
+    /*箭头*/
+    scrollbar-3dlight-color: rgb(197, 197, 197);
+    /*最外左*/
+    scrollbar-highlight-color: rgb(197, 197, 197);
+    /*左二*/
+    scrollbar-shadow-color: rgb(197, 197, 197);
+    /*右二*/
+    scrollbar-darkshadow-color: rgb(197, 197, 197);
+    /*右一*/
+    scrollbar-track-color: rgb(197, 197, 197);
+    /*滑道*/
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(232, 232, 232, 0);
+    /*滑道全部*/
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(255, 255, 255, 0);
+    /*滑道*/
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(141, 141, 141, 0.4);
+    /*滑动条表面*/
+}
+
+/*横竖滚动条交角*/
+::-webkit-scrollbar-corner {
+    background-color: rgba(141, 141, 141, 0.4);
+}
+
+/*鼠标滑过滑动条*/
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(141, 141, 141, 1);
+}
+
+html, body {
+    background: #FFFFFF;
+    border: none;
+    box-shadow: none;
+}
+
+select.themeSelect {
+    border: 1px solid rgba(217, 217, 217, 0.5);
+}
+
+select.themeSelect > option {
+    background-color: #d6d6d6;
+}
+
+label.formIp {
+    color: rgb(255, 255, 255);
+}
+
+a.menuBtn, a.menuBtn > span, a.alarmLabel, a.alarmLabel > span {
+    color: #ffffff;
+}
+
+ul.navbar-nav > li.open > a {
+    background-color: rgba(0, 112, 164, 0);
+}
+
+ul.navbar-nav > li.visit:hover, ul.navbar-nav > li.visit.open {
+    border-bottom: 3px solid rgba(107, 206, 255, 0.91);
+}
+
+.visit > a {
+    color: rgb(255, 255, 255);
+}
+
+.visit > a:hover {
+    background: rgba(255, 255, 255, 0) !important;
+    color: rgb(189, 227, 255) !important;
+}
+
+ul.dropdown-menu > li.visit:hover {
+    background-color: rgba(205, 232, 255, 0.3) !important;
+    border-bottom: 3px solid rgba(80, 180, 255, 0.64) !important;
+}
+
+span.alarmSpan {
+    color: rgb(244, 245, 255);
+    box-shadow: 0 0 10px rgba(250, 255, 245, 0.7);
+}
+
+font.loginOut, font.alarm, font.menu {
+    color: rgba(55, 59, 51, 0.73);
+}
+
+div.react-first-menu-div {
+    background: -webkit-linear-gradient(rgb(17, 196, 225) 5%, rgb(16, 87, 114) 95%) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(17, 196, 225) 5%, rgb(16, 87, 114) 95%) !important;; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(17, 196, 225) 5%, rgb(16, 87, 114) 95%) !important;; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(17, 196, 225) 5%, rgb(16, 87, 114) 95%) !important;; /* 标准的语法 */
+}
+
+div.react-second-menu-div {
+    background: -webkit-linear-gradient(rgb(16, 87, 114) 5%, rgb(15, 45, 67) 95%) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(16, 87, 114) 5%, rgb(15, 45, 67) 95%) !important;; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(16, 87, 114) 5%, rgb(15, 45, 67) 95%) !important;; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(16, 87, 114) 5%, rgb(15, 45, 67) 95%) !important;; /* 标准的语法 */
+}
+
+.content-div {
+    background: -webkit-linear-gradient(rgb(17, 55, 79), rgb(16, 88, 113)) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(17, 55, 79), rgb(16, 88, 113)) !important;; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(17, 55, 79), rgb(16, 88, 113)) !important;; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(17, 55, 79), rgb(16, 88, 113)) !important;; /* 标准的语法 */
+}
+
+li.react-first-menu-li > a {
+    color: rgba(25, 25, 25, 0.85);
+    /*background: rgb(16, 171, 208);*/
+    border: 1px solid rgb(79, 209, 249);
+    background: -webkit-linear-gradient(rgba(15, 86, 112, 1), rgb(107, 206, 255)) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(15, 86, 112, 1), rgb(107, 206, 255)) !important;; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(15, 86, 112, 1), rgb(107, 206, 255)) !important;; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgba(15, 86, 112, 1), rgb(107, 206, 255)) !important;; /* 标准的语法 */
+}
+
+.content-menu {
+    color: rgb(210, 206, 206);
+    border: 1px solid rgba(32, 83, 125, 0.72);
+    background: -webkit-linear-gradient(rgb(107, 206, 255), rgba(15, 86, 112, 0.8)) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(107, 206, 255), rgba(15, 86, 112, 0.8)) !important;; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(107, 206, 255), rgba(15, 86, 112, 0.8)) !important;; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(51, 96, 119), rgba(17, 49, 61, 0.8)) !important;
+}
+
+.content-menu:hover,
+.content-menu-selected,
+.content-menu-selected:focus {
+    color: #FFFFFF;
+    border: 1px solid rgb(79, 209, 249);
+}
+
+li.react-first-menu-li > a:hover, li.react-first-menu-selected-li > a {
+    right: -4px !important;
+    /*background: rgb(15, 111, 137);*/
+    background: -webkit-linear-gradient(rgb(248, 248, 248) 5%, rgb(6, 13, 23) 90%, rgb(248, 214, 25)) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(248, 248, 248) 5%, rgb(6, 13, 23) 90%, rgb(248, 214, 25)) !important;; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(248, 248, 248) 5%, rgb(6, 13, 23) 90%, rgb(248, 214, 25)) !important;; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(248, 248, 248) 5%, rgb(6, 13, 23) 90%, rgb(248, 214, 25)) !important;; /* 标准的语法 */
+}
+
+.content-menu:hover,
+.content-menu-selected {
+    background: -webkit-linear-gradient(rgb(248, 248, 248) 5%, rgb(6, 13, 23) 90%, rgb(248, 214, 25)) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(248, 248, 248) 5%, rgb(6, 13, 23) 90%, rgb(248, 214, 25)) !important; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(248, 248, 248) 5%, rgb(6, 13, 23) 90%, rgb(248, 214, 25)) !important; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(111, 150, 172), rgb(85, 116, 148)) !important;
+    top: -2px !important;
+}
+
+li.react-first-menu-li > a {
+
+}
+
+/*  Layout Theme ************* Start  */
+
+
+/*  Table Theme ************* Start  */
+
+div.react-table-heading {
+    /*border-bottom: 1px #95B8E7 solid !important;*/
+    background: rgba(205, 232, 255, 0.3) !important;
+}
+
+div.table-panel-border-show {
+    border: 1px solid #95B8E7;
+}
+
+div.reactTabBox {
+    color: rgb(54, 54, 54) !important;
+}
+
+table.myTable tbody td {
+    border-bottom: solid 1px rgba(180, 180, 180, 0.41);
+    border-left: solid 1px rgba(180, 180, 180, 0.41);
+    border-right: solid 1px rgba(180, 180, 180, 0.41);
+}
+
+table.myTable td {
+    color: #0e0e0e;
+}
+
+table.myTable tbody > tr {
+    background-color: #ffffff;
+}
+
+table.myTable tbody > tr:not(.react-table-edit-row):not(.react_table_selected):hover {
+    background-color: #cee6ff;
+}
+
+select.tableSelect:focus, select.tableSelect:checked, input.filterInputText:focus, input.filterInputText:checked {
+    border: 1px solid rgba(217, 217, 217, 0.99);
+}
+
+div.tableFoot {
+    border-top: 1px solid #95B8E7;
+}
+
+div.tableFoot-left > div {
+    color: rgb(35, 33, 40);
+}
+
+a.static, a.static:hover {
+    background: rgb(210, 208, 210) !important;
+    color: rgb(183, 183, 186) !important;
+}
+
+ul.paging > li > a, .resetButton, .globalBtn, .export-menu-span {
+    background: #337ab7;
+    border: #2e6da4;
+    color: #fff;
+}
+
+ul.paging > li > a:hover {
+    background: rgb(189, 233, 255);
+    color: rgb(90, 90, 90);
+}
+
+.resetButton:hover, .globalBtn:hover, .export-menu-span:hover {
+    background: #286090;
+    border: #204d74;
+}
+
+.resetButton:disabled, .globalBtn:disabled {
+    background: rgb(165, 165, 165);
+    color: rgb(206, 206, 206);
+}
+
+tr.oddTrClass {
+
+}
+
+tr.evenTrClass {
+    background-color: rgba(199, 199, 199, 0.5);
+}
+
+div.contentbody-panel > div.panel-heading {
+    color: rgb(149, 228, 255) !important;
+    /*background: -webkit-linear-gradient(left, rgb(245, 245, 245), rgb(235, 235, 235)) !important; !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(right, rgb(245, 245, 245), rgb(235, 235, 235)) !important;; !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(right, rgb(245, 245, 245), rgb(235, 235, 235)) !important;; !* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(to right, rgb(245, 245, 245), rgb(235, 235, 235)) !important;; !* 标准的语法 *!*/
+}
+
+div.contentbody-panel > div.panel-heading span {
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+div.contentbody-panel {
+    background: #fffff9;
+    /*background: -webkit-linear-gradient(left, rgb(235, 235, 235), rgb(215, 215, 215)) !important; !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(right, rgb(235, 235, 235), rgb(215, 215, 215)) !important;; !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(right, rgb(235, 235, 235), rgb(215, 215, 215)) !important;; !* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(to right, rgb(235, 235, 235), rgb(215, 215, 215)) !important;; !* 标准的语法 *!*/
+    /*border: rgba(205, 205, 205, 0.84) 0 solid;*/
+    /*background: -webkit-linear-gradient(left, rgb(235, 235, 235), rgb(215, 215, 215)) !important; !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(right, rgb(235, 235, 235), rgb(215, 215, 215)) !important;; !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(right, rgb(235, 235, 235), rgb(215, 215, 215)) !important;; !* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(to right, rgb(235, 235, 235), rgb(215, 215, 215)) !important;; !* 标准的语法 *!*/
+}
+
+/*  Table Theme ************* End  */
+
+/*  Dashboard Theme ************* Start  */
+
+.comp_box {
+    box-shadow: 2px 2px 15px rgba(180, 180, 180, 0.8);
+    background-color: #FFFFFF;
+    border: 1px solid rgba(180, 180, 180, 1);
+}
+
+.comp_box > div.header {
+    background: rgb(189, 233, 255);
+}
+
+.tools > label {
+    color: #484848;
+}
+
+.myBtn {
+    background-color: rgba(21, 21, 21, 0);
+    color: #484848;
+}
+
+.comp_box > .row > .divTitle {
+    color: #484848;
+}
+
+
+.infoComponent > label {
+    color: rgb(72, 72, 72);
+}
+
+
+.infoComponent > input {
+    color: #484848;
+    border: 1px solid rgba(30, 30, 30, 0.41);
+}
+
+.infoComponent > input:hover {
+    -webkit-animation: infoLabelAnimation1 5s infinite;
+    -o-animation: infoLabelAnimation1 5s infinite;
+    animation: infoLabelAnimation1 5s infinite;
+}
+
+.comp_box:hover {
+    -webkit-animation: compBoxAnimation1 5s infinite;
+    -o-animation: compBoxAnimation1 5s infinite;
+    animation: compBoxAnimation1 5s infinite;
+}
+
+.time_tab_fold_background_color {
+    background-color: rgba(202, 202, 202, 0.74);
+}
+
+tr.first_fold_rowBackground {
+    border: 1px solid rgba(176, 176, 176, 0.76)
+}
+
+@keyframes compBoxAnimation1 {
+    0% {
+        box-shadow: 0 0 30px #FFF
+    }
+    70% {
+        box-shadow: 0 0 30px #000
+    }
+    100% {
+        box-shadow: 0 0 30px #FFF
+    }
+}
+
+@-moz-keyframes compBoxAnimation1 {
+    0% {
+        box-shadow: 0 0 30px #FFF
+    }
+    70% {
+        box-shadow: 0 0 30px #000
+    }
+    100% {
+        box-shadow: 0 0 30px #FFF
+    }
+}
+
+@-ms-keyframes compBoxAnimation1 {
+    0% {
+        box-shadow: 0 0 30px #FFF
+    }
+    70% {
+        box-shadow: 0 0 30px #000
+    }
+    100% {
+        box-shadow: 0 0 30px #FFF
+    }
+}
+
+@-o-keyframes compBoxAnimation1 {
+    0% {
+        box-shadow: 0 0 30px #FFF
+    }
+    70% {
+        box-shadow: 0 0 30px #000
+    }
+    100% {
+        box-shadow: 0 0 30px #FFF
+    }
+}
+
+@-webkit-keyframes compBoxAnimation1 {
+    0% {
+        box-shadow: 0 0 30px #FFF
+    }
+    70% {
+        box-shadow: 0 0 30px #000
+    }
+    100% {
+        box-shadow: 0 0 30px #FFF
+    }
+}
+
+@keyframes infoLabelAnimation1 {
+    0% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+    60% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8)
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+}
+
+@-moz-keyframes infoLabelAnimation1 {
+    0% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+    60% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8)
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+}
+
+@-ms-keyframes infoLabelAnimation1 {
+    0% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+    60% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8)
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+}
+
+@-o-keyframes infoLabelAnimation1 {
+    0% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8)
+    }
+    60% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8)
+    }
+}
+
+@-webkit-keyframes infoLabelAnimation1 {
+    0% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+    60% {
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8)
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(84, 84, 84, 0.7)
+    }
+}
+
+/*  Dashboard Theme ************* End  */
+
+button.react-sw-btn {
+    color: #fff;
+    border: 1px solid #2e6da4;
+    background: #3993d5;
+}
+
+button.react-sw-btn:hover {
+    background: #2e6da4;
+}
+
+div.react-link-tool-div a.link-item {
+    color: #585757;
+}
+
+.about-main {
+    background: #FFF;
+}
+
+.about-foot {
+    background: rgb(0, 0, 0);
+    color: #FFF;
+}
+
+.about-foot a {
+    color: #4c71ff;
+}
+
+div.react-link-tool-div ul.dropdown-item {
+    border: 1px solid #d0d0d0;
+}
+
+div.react-link-tool-div ul.dropdown-item li {
+    background: #FFFFFF;
+}
+
+div.react-link-tool-div a.link-item-normal:hover {
+    background: rgba(142, 210, 240, 0.54);
+}
+
+div.react-link-tool-div a.link-item-disabled {
+    color: rgba(199, 198, 198, 0.66);
+}
+
+label.react-switch {
+    color: white;
+    background-color: #cfcfcf;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+label.react-switch .react-switch-toggle {
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2), 0 0 1px #ffffff inset;
+    background-image: linear-gradient(#ffffff 0%, #e7e7e7 100%);
+}
+
+label.react-switch.react-switch-focused {
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1), 0 0 8px #52a8ec, 0 0 1px 1px rgba(0, 0, 0, 0.75) inset;
+}
+
+.background_enabled {
+    background-color: #21a5fd !important;
+}
+
+.background_disabled {
+    background-color: #cfcfcf !important;
+}
+
+label.react-radio {
+    background-color: #cfcfcf;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+label.react-radio > span.react-radio-pip {
+    background: blue;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    background-image: linear-gradient(#ffffff 0, #e7e7e7 100%);
+}
+
+label.react-radio.selected {
+    background-color: #05abe0;
+}
+
+.container1 > div, .container2 > div {
+    background-color: #ffffff;
+    border: 1px solid rgba(103, 103, 103, 0.51);
+}
+
+div.dashboard-div {
+    border: solid 1px rgba(203, 203, 203, 0.78);
+}
+
+div.react-dashboard-main-panel-top-div {
+    background: rgb(187, 227, 255);
+}
+
+div.react-dashboard-ne-info-panel-title {
+    background: -webkit-linear-gradient(top, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%); /* 标准的语法 */
+}
+
+div.react-dashboard-ne-info-panel-left div.react-dashboard-label-div {
+    color: #555555;
+}
+
+table.react-dashboard-service-table > tr:last-child {
+    border-bottom: 1px solid rgba(84, 84, 84, 0.45);
+}
+
+table.react-dashboard-service-table > tr > td:first-child {
+    border-right: 1px solid rgba(84, 84, 84, 0.45);
+}
+
+div.service-total-used-div {
+    color: #404040;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+table.react-dashboard-temp-table tr.row-1 {
+    border-bottom: solid 1px rgba(159, 159, 159, 0.69);
+}
+
+table.react-dashboard-temp-table tr > td:first-child {
+    border-right: solid 1px rgba(159, 159, 159, 0.69);
+}
+
+fieldset.react-fieldset {
+    border: 1px solid #c0c0c0;
+}
+
+img.infinera_logo {
+    background: #FFFFFF;
+}
+
+ul.navbar-nav > li.visit {
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+
+li.alarmLi a {
+    color: #c8c8c8;
+}
+
+li.alarmLi a > span {
+    color: #000000;
+}
+
+span.defaultEventBtn {
+    background: red no-repeat center center;
+}
+
+ul.react-layout-menu-ul {
+    background: rgba(0, 0, 0, 0);
+}
+
+div.react-selected-first-menu-div {
+    border: 1px solid rgb(143, 199, 238);
+    border-bottom: 1px solid rgb(15, 86, 112);
+    color: #FFFFFF;
+}
+
+a.react-dashboard-find-me-btn {
+    border: solid 1px #FFFFFF;
+    color: #FFFFFF;
+}
+
+a.react-dashboard-find-me-btn:hover {
+    background: -webkit-linear-gradient(rgb(16, 87, 114) 5%, rgb(17, 196, 225) 95%) !important; /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(16, 87, 114) 5%, rgb(17, 196, 225) 95%) !important; /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(16, 87, 114) 5%, rgb(17, 196, 225) 95%) !important; /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(16, 87, 114) 5%, rgb(17, 196, 225) 95%) !important; /* 标准的语法 */
+}
+
+body.login-body {
+    background: #000000;
+}
+
+form.form-horizontal {
+    color: #000000;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+#page-wrapper {
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    #page-wrapper {
+        border-left: 1px solid #e7e7e7;
+    }
+}
+
+.sidebar ul li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.sidebar ul li a.active {
+    background-color: #eee;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+.chat li {
+    border-bottom: 1px dotted #999;
+}
+
+table.dataTable thead .sorting:after {
+    color: rgba(50, 50, 50, .5);
+}
+
+.show-grid [class^=col-] {
+    border: 1px solid #ddd;
+    background-color: #eee !important;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+
+.panel-green .panel-heading {
+    border-color: #5cb85c;
+    color: #fff;
+    background-color: #5cb85c;
+}
+
+.panel-green a {
+    color: #5cb85c;
+}
+
+.panel-green a:hover {
+    color: #3d8b3d;
+}
+
+.panel-red {
+    border-color: #d9534f;
+}
+
+.panel-red .panel-heading {
+    border-color: #d9534f;
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.panel-red a {
+    color: #d9534f;
+}
+
+.panel-red a:hover {
+    color: #b52b27;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+
+.panel-yellow .panel-heading {
+    border-color: #f0ad4e;
+    color: #fff;
+    background-color: #f0ad4e;
+}
+
+.panel-yellow a {
+    color: #f0ad4e;
+}
+
+.panel-yellow a:hover {
+    color: #df8a13;
+}
+
+div.modalLayer {
+    background: rgba(80, 80, 80, 0.5);
+}
+
+div.modalDivBox {
+    background: rgba(238, 238, 238, 0.9);
+    border: solid 6px rgba(64, 64, 64, 0.81);
+    box-shadow: inset 0 -5px 5px rgba(140, 140, 140, 0.7);
+}
+
+div.closeBtn > a.modalDivCloseBtn:visited {
+    border: solid 1px #45b6ff;
+}
+
+div.react-modal-title {
+    color: rgb(90, 77, 85);
+}
+
+div.modalDivBody div.form-group > input, div.modalDivBody div.form-group > select {
+    border: solid 1px rgba(196, 196, 196, 0.8);
+    box-shadow: inset 0 -3px 3px rgb(224, 224, 224);
+}
+
+div.react-modal-foot > a.button {
+    background: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+
+div.react-modal-foot > a.button:hover {
+    background: #286090;
+    border-color: #204d74;
+}
+
+div.react-modal-foot > a.noBtn {
+    background: #FFFFFF;
+    border: 1px solid #b0b0b0;
+    color: #000000;
+}
+
+div.react-modal-foot > a.noBtn:hover {
+    background: #b0b0b0;
+    border: 1px solid #b0b0b0;
+}
+
+#additionalContent1 > .modal {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#additionalContent2 > .modal {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#additionalContent3 > .modal {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+form.react-modal-form fieldset {
+    border: 1px solid #c0c0c0;
+}
+
+.fieldset-no-legend {
+    border: 1px solid #c0c0c0;
+}
+
+.form-label {
+    color: #555;
+    background-color: #fff;
+}
+
+.modal-button {
+    background: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+
+.form-control {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.inputSelect-control {
+    color: #555;
+    background-color: #fff;
+}
+
+.modal-label-font {
+    color: black;
+}
+
+div.modal-header.react-modal-header.react-modal-head-show-class {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.figure_main_div {
+    background: #F3F3F3;
+    border: solid 2px rgba(218, 218, 218, 0.5);
+    box-shadow: 1px 1px 10px rgb(2, 2, 2);
+}
+
+ul.small_figure_ul > li {
+    border: 1px solid rgba(207, 207, 207, 0.95);
+}
+
+div.big_figure_div {
+    border: solid 2px rgba(218, 218, 218, 0.5);
+    box-shadow: 1px 1px 10px rgb(2, 2, 2);
+    background: #F3F3F3;
+}
+
+ul.small_figure_ul > li:hover {
+    box-shadow: 0 0 15px rgb(165, 165, 165);
+}
+
+.react-progress {
+    background: #ebebeb;
+}
+
+.react-progress a {
+    background: #cccccc;
+    border-color: #bfbfbf #b3b3b3 #9e9e9e;
+    background-image: -webkit-linear-gradient(top, #f0f0f0 0%, #dbdbdb 70%, #cccccc 100%);
+    background-image: -moz-linear-gradient(top, #f0f0f0 0%, #dbdbdb 70%, #cccccc 100%);
+    background-image: -o-linear-gradient(top, #f0f0f0 0%, #dbdbdb 70%, #cccccc 100%);
+    background-image: linear-gradient(to bottom, #f0f0f0 0%, #dbdbdb 70%, #cccccc 100%);
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.react-progress a > span {
+    color: #404040;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+}
+
+.react-progress .green, .react-progress .GBE10 {
+    background: #85c440;
+    border-color: #78b337 #6ba031 #568128;
+    background-image: -webkit-linear-gradient(top, #b7dc8e 0%, #99ce5f 70%, #85c440 100%);
+    background-image: -moz-linear-gradient(top, #b7dc8e 0%, #99ce5f 70%, #85c440 100%);
+    background-image: -o-linear-gradient(top, #b7dc8e 0%, #99ce5f 70%, #85c440 100%);
+    background-image: linear-gradient(to bottom, #b7dc8e 0%, #99ce5f 70%, #85c440 100%);
+}
+
+.react-progress .red {
+    background: #db3a27;
+    border-color: #c73321 #b12d1e #8e2418;
+    background-image: -webkit-linear-gradient(top, #ea8a7e 0%, #e15a4a 70%, #db3a27 100%);
+    background-image: -moz-linear-gradient(top, #ea8a7e 0%, #e15a4a 70%, #db3a27 100%);
+    background-image: -o-linear-gradient(top, #ea8a7e 0%, #e15a4a 70%, #db3a27 100%);
+    background-image: linear-gradient(to bottom, #ea8a7e 0%, #e15a4a 70%, #db3a27 100%);
+}
+
+.react-progress .orange, .react-progress .oduflex {
+    background: #f2b63c;
+    border-color: #f0ad24 #eba310 #c5880d;
+    background-image: -webkit-linear-gradient(top, #f8da9c 0%, #f5c462 70%, #f2b63c 100%);
+    background-image: -moz-linear-gradient(top, #f8da9c 0%, #f5c462 70%, #f2b63c 100%);
+    background-image: -o-linear-gradient(top, #f8da9c 0%, #f5c462 70%, #f2b63c 100%);
+    background-image: linear-gradient(to bottom, #f8da9c 0%, #f5c462 70%, #f2b63c 100%);
+}
+
+.react-progress .blue, .react-progress .amplifile-pa {
+    background: #5aaadb;
+    border-color: #459fd6 #3094d2 #277db2;
+    background-image: -webkit-linear-gradient(top, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%);
+    background-image: -moz-linear-gradient(top, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%);
+    background-image: -o-linear-gradient(top, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%);
+    background-image: linear-gradient(to bottom, #aed5ed 0%, #7bbbe2 70%, #5aaadb 100%);
+}
+
+.react-progress .amplifile-ba {
+    background: #5ac6f6;
+    border-color: #4ec7ff #39b2ff #33aaf1;
+    background-image: -webkit-linear-gradient(top, #bae6ff 0%, #8dd6ff 70%, #5fcdff 100%);
+    background-image: -moz-linear-gradient(top, #bae6ff 0%, #8dd6ff 70%, #5fcdff 100%);
+    background-image: -o-linear-gradient(top, #bae6ff 0%, #8dd6ff 70%, #5fcdff 100%);
+    background-image: linear-gradient(to bottom, #bae6ff 0%, #8dd6ff 70%, #5fcdff 100%);
+}
+
+.react-progress .GBE40 {
+    background: #54cebb;
+    border-color: #85b3ae #519f9e #418180;
+    background-image: -webkit-linear-gradient(top, #a0cec9 0%, #74cecd 70%, #51cecd 100%);
+    background-image: -moz-linear-gradient(top, #a0cec9 0%, #74cecd 70%, #51cecd 100%);
+    background-image: -o-linear-gradient(top, #a0cec9 0%, #74cecd 70%, #51cecd 100%);
+    background-image: linear-gradient(to bottom, #a0cec9 0%, #74cecd 70%, #51cecd 100%);
+}
+
+.react-progress .GBE100 {
+    background: #2a9fce;
+    border-color: #7498b3 #6285a0 #586681;
+    background-image: -webkit-linear-gradient(top, #8eb3ce 0%, #58a1ce 70%, #2188ce 100%);
+    background-image: -moz-linear-gradient(top, #8eb3ce 0%, #58a1ce 70%, #2188ce 100%);
+    background-image: -o-linear-gradient(top, #8eb3ce 0%, #58a1ce 70%, #2188ce 100%);
+    background-image: linear-gradient(to bottom, #8eb3ce 0%, #58a1ce 70%, #2188ce 100%);
+}
+
+div.react-service-control {
+    border: 1px solid #cbcbcb;
+}
+
+div.react-subcard-amplifile-div {
+    border-right: 2px solid #cbcbcb;
+}
+
+.color {
+    background: rgb(187, 187, 187);
+}
+
+table.myTable tbody tr.react_table_selected {
+    background: #ffe48d;
+}
+
+select.tableSelect, input.filterInputText {
+    background: #FFFFFF;
+    border: 1px solid rgba(107, 107, 107, 0.65) !important;
+}
+
+tr.react-table-fileter-tr {
+    background: rgb(225, 225, 225);
+}
+
+td.react-table-fileter-td {
+    background: rgb(225, 225, 225);
+}
+
+table.myTable thead, table.myTable tfoot {
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* 标准的语法 */
+}
+
+.filterButton {
+    border: solid 1px rgba(255, 255, 255, 0.87);
+    background: -webkit-linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* 标准的语法 */
+}
+
+.float-filter-div button {
+    border: 1px solid rgba(107, 107, 107, 0.65) !important;
+}
+
+i.normal {
+    color: rgba(1, 113, 225, 0.64);
+}
+
+i.filter {
+    color: orange;
+}
+
+table span.react-table-drag-bar {
+    background: red;
+}
+
+table span.react-table-drag-bar:hover {
+    border-right: 1px solid #000000;
+}
+
+table.myTable, table thead.react-table-thead {
+    border-top: 1px solid rgba(153, 187, 232, 0.71);
+}
+
+table.myTable thead {
+    border-bottom: 1px solid rgba(153, 187, 232, 0.71);
+}
+
+table.myTable thead tr td:hover {
+    background: -webkit-linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ebf6ff, rgb(197, 233, 255)); /* 标准的语法 */
+}
+
+div.transparent {
+    background: rgba(0, 0, 0, 0);
+}
+
+ul.tableMenu > li {
+    background: rgb(249, 249, 249);
+    border: solid 1px rgb(232, 232, 232);
+    color: rgb(161, 161, 161);
+}
+
+ul.tableMenu > li:hover {
+    color: rgb(255, 255, 255);;
+    background-color: rgb(136, 212, 255);
+}
+
+div.btn-divClass {
+    background: #FFFFFF;
+}
+
+div.btn-divClass > button, div.btn-divClass > button:hover {
+    color: #000;
+}
+
+div.btn-divClass-normal {
+    background: #FFFFFF;
+}
+
+div.btn-divClass-normal > button, div.btn-divClass-normal > button:hover {
+    color: #000;
+}
+
+span.react-fold-icon-disabled {
+    color: rgba(189, 189, 189, 0.75);
+}
+
+a.state.up {
+    background-color: green;
+}
+
+a.state.down {
+    background-color: red;
+}
+
+.color_red {
+    color: red;
+}
+
+.color_orange {
+    color: orange;
+}
+
+.color_yellow {
+    color: yellow;
+}
+
+.color_purple {
+    color: purple;
+}
+
+.color_blue {
+    color: blue;
+}
+
+.color_green {
+    color: rgb(0, 255, 0);
+}
+
+.background_green {
+    background-color: rgb(0, 255, 0) !important;
+}
+
+.background_red {
+    background-color: red !important;
+}
+
+.background_yellow {
+    background-color: yellow !important;
+}
+
+.background_blue {
+    background-color: blue !important;
+}
+
+
+.color_gray {
+    color: rgba(128, 128, 128, 0.52);
+}
+
+table.react-treetable-root-table {
+    border: 1px solid rgba(153, 187, 232, 0.71);
+}
+
+table.react-treetable thead, table.react-treetable tfoot {
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238)); /* 标准的语法 */
+}
+
+.react-treetable .react-data-row:hover {
+    background: #eaf2ff;
+}
+
+table.react-treetable thead tr td {
+    border-right: 1px solid rgb(208, 208, 208);
+    border-bottom: 2px solid rgba(153, 187, 232, 0.71);
+}
+
+.react-treetable .react-data-row.treetable-row-selected {
+    background: #ffe48d;
+}
+
+.react-treetable td {
+    color: #0e0e0e;
+    border-color: #ccc;
+}
+
+div.trib_div {
+    background: #ffffff;
+}
+
+div.trib_div_show {
+    background: #ffffff;
+}
+
+ul.trib_ul li.normal {
+    background: #ccffbc;
+    color: #5a5a5a;
+}
+
+ul.trib_ul li.normal:hover {
+    background: #3385ff;
+    color: #fff;
+}
+
+ul.trib_ul li.checked {
+    background: #ffd329;
+    color: #0003ff;
+}
+
+ul.trib_ul li.disabled {
+    background: #a3a3a3;
+    color: #d0d0d0;
+}
+
+div.usedItem {
+    background: #a3a3a3;
+    color: #d0d0d0;
+}
+
+div.unUsedItem {
+    background: #ccffbc;
+    color: #5a5a5a;
+}
+
+div.testDiv {
+    background: yellow;
+}
+
+li.checkBoard {
+    border: 1px solid #ff1213;
+}
+
+div.trib_info {
+    border-top: 1px solid rgba(156, 156, 156, 0.57);
+}
+
+.tribInputError {
+    border: 1px solid red;
+    color: red;
+}
+
+div.react-tree-table-tool-div {
+    margin-bottom: 5px;
+}
+
+div.modal-header > a.modal-close-btn:hover {
+    opacity: 0.8;
+}
+
+div.modal-header > a.modal-close-btn {
+    opacity: 0.4;
+}
+
+@media (min-width: 768px) {
+    .form-horizontal .control-label {
+        color: #000000;
+        white-space: nowrap;
+    }
+}
+
+.NEInfoWrapper a:visited {
+    color: #3232ca;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+.inputSelect-control[disabled],
+fieldset[disabled] .form-control {
+    background-color: #eee;
+}
+
+.dropdownClass-disabled{
+    background-color: darkgray;
+}
+
+
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #eee;
+}
+
+select:disabled {
+    opacity: 1;
+}
+
+form.react-modal-form fieldset {
+    border: 1px solid #c0c0c0;
+}
+
+.xcConfirm .popBox {
+    color: #535e66;
+    background-color: #ffffff;
+}
+
+.xcConfirm .popBox .sgBtn.ok {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+
+.xcConfirm .popBox .sgBtn.ok:hover {
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.xcConfirm .popBox .sgBtn.cancel:hover {
+    background-color: #adadad;
+    border-color: #e6e6e6;
+}
+
+.xcConfirm .popBox .sgBtn.cancel {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #333;
+}
+
+.has-error .small-block,
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #a94442;
+}
+
+a.react-dashboard-main-panel-bottom-button:hover {
+    color: #fdfdff;
+}
+
+table tr.react-table-edit-row td.collapseTd div.react-collapse-div {
+    background: rgba(205, 236, 255, 0.62);
+}
+
+table.service-diagram-table tr td.service-diagram-info-td {
+    border-right: dashed 1px rgba(180, 180, 180, 0.2) !important;
+}
+
+table.service-diagram-table td div.service-diagram-node {
+    border: 1px solid #0e90d2;
+    color: #0e0e0e;
+}
+
+table.service-diagram-table td div.line-node, table.service-diagram-table td div.cline-node {
+    background: #FFFFFF;
+}
+
+table.service-diagram-table td div.line-node:not(.line-last-one):after {
+    border-left-color: rgb(97, 91, 91) !important;
+}
+
+table.service-diagram-table td div.cline-node:not(.cline-first-one):after {
+    border-right-color: rgb(97, 91, 91) !important;
+}
+
+table.service-diagram-table div.diagram-info-div {
+    background: #FFFFFF;
+}
+
+.panel-default {
+    background-color: #FFFFFF;
+}
+
+
+div.service-diagram-panel-row ul {
+    /*border-right: solid 1px rgba(0,0,0,0.2);*/
+}
+
+div.service-diagram-panel-row ul li {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    color: rgba(14, 14, 14, 0.74);
+    background: rgba(244, 253, 255, 0.73);
+}
+
+div.service-diagram-panel-row ul li:last-child {
+    /*border-bottom: solid 1px rgba(0,0,0,0.2);*/
+}
+
+div.service-diagram-panel-row ul li.selected {
+    background: rgb(63, 166, 204);
+    color: #1a1515;
+}
+
+div.service-diagram-panel-row ul li:not(.selected):hover {
+    background: rgba(71, 162, 255, 0.28);;
+}
+
+div.service-diagram-panel-left ul {
+    border-right: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+div.service-diagram-panel-left ul li {
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    color: rgba(14, 14, 14, 0.74);
+    background: rgba(244, 253, 255, 0.73);
+}
+
+div.service-diagram-panel-left ul li:last-child {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+div.service-diagram-panel-left ul li.selected {
+    background: rgb(63, 166, 204);
+    color: #1a1515;
+}
+
+div.service-diagram-panel-left ul li:not(.selected):hover {
+    background: rgba(71, 162, 255, 0.28);;
+}
+
+table.service-diagram-table td.line-last-one:not(.service-diagram-node-td) {
+    border-right: solid 1px rgba(180, 180, 180, 0.8);
+}
+
+table.service-diagram-table td.between-node-space-td span {
+    background: rgba(180, 180, 180, 0.8) !important;
+}
+
+div.service-diagram-panel-right div.service-info-right-panel {
+    border: solid 1px rgba(180, 180, 180, 0.41);
+}
+
+div.service-diagram-panel-right div.service-info-right-panel-main div.service-info-right-panel-right button {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+div.service-diagram-panel-right div.service-info-right-panel-main div.service-info-right-panel-right button:hover {
+    color: #fff;
+    background-color: #286090;
+    border: solid 1px rgba(180, 180, 180, 0.41);
+}
+
+table.diagram-info-table {
+    border-right: solid 1px rgba(180, 180, 180, 0.41) !important;
+}
+
+table.diagram-info-table tr.head {
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238));
+    background: -o-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238));
+    background: -moz-linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238));
+    background: linear-gradient(rgb(255, 255, 255), rgb(235, 236, 238))
+}
+
+table.diagram-info-table tr {
+    background: white;
+}
+
+.widget-content {
+    background-color: #ffe;
+}
+
+.side-background {
+    background: linear-gradient(to right, rgba(19, 105, 150, 1) 0%, rgba(108, 175, 210, 1) 100%) no-repeat
+}
+
+#mainContainer {
+    background-color: #fff;
+}
+
+.chassis-view-header {
+    background-color: rgba(205, 232, 255, .3);
+}
+
+.react-modal-dialog-wrapper {
+    background-color: #fff;
+}
+
+.react-modal-dialog-title {
+    color: #556;
+}
+
+.neinfoTable td {
+    background-color: #ffe;
+}

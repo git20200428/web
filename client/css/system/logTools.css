@@ -1,0 +1,24 @@
+textarea.form-control {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logToolsContent {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+#logForm {
+    overflow: auto;
+}
+
+.delete-margin-bottom{
+    margin-bottom: 0px !important;
+}
+
+#log-tool-footer {
+    margin-right: 8px;
+}

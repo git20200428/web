@@ -1,0 +1,234 @@
+div.react-tree-table-div {
+    flex: 1;
+    padding: 10px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+div.react-tree-table-view-div {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+table.react-treetable-root-table {
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.react-treetable {
+    border-collapse: separate;
+    table-layout: fixed;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+table.react-treetable tbody.react-treetable-body-content {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+table.react-treetable thead tr td {
+    height: 30px;
+}
+
+table.react-treetable thead tr td:last-child {
+    border-right: none !important;
+}
+
+tr.react-tree-table-row, tr.react-treetable-tree {
+    border-collapse: collapse;
+}
+
+tr.react-treetable-tree {
+    height: auto;
+    width: 100%;
+}
+
+tr.react-treetable-tree > td {
+    border: 0;
+    display: block;
+    width: 100%;
+}
+
+table.react-treetable tr {
+    display: block;
+}
+
+tr.react-treetable-tree .react-treetable-tree-div {
+    display: block;
+    overflow: hidden;
+    max-height: 10000px;
+    -webkit-transition: 0.75s ease-in;
+    -moz-transition: 0.75s ease-in;
+    -ms-transition: 0.75s ease-in;
+    -o-transition: 0.75s ease-in;
+    transition: 0.75s ease-in;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr.react-treetable-tree .react-treetable-tree-div.tree-collapsed {
+    max-height: 0;
+}
+
+.react-treetable .react-data-row {
+    height: 25px;
+}
+
+.react-treetable .react-treetable-header-row td {
+    position: relative;
+}
+
+.react-treetable td {
+    font: normal 11px/15px arial, tahoma, helvetica, sans-serif;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.react-treetable-cell-c1c-rownumber {
+    width: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.react-treetable-tr-tree {
+    height: auto !important;
+}
+
+.react-tree-hit {
+    cursor: pointer;
+}
+
+thead .react-treetable-cell {
+    height: 18px;
+    line-height: 18px;
+}
+
+.my-expand > .react-treetable-cell{
+    position: relative;
+    overflow: visible;
+}
+
+.react-treetable-cell {
+    margin: 0;
+    padding: 0 4px;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+    height: 100%;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+td.react-table-edit-row-collapseTd {
+    display: block;
+    border: none;
+}
+
+.react-tree-indent {
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.react-tree-lines .react-tree-line {
+    background: url('../../img/tree_icons.png') no-repeat -176px 0;
+}
+
+.react-tree-lines .react-tree-join {
+    background: url('../../img/tree_icons.png') no-repeat -192px 0;
+}
+
+.react-tree-lines .react-tree-expanded {
+    background: url('../../img/tree_icons.png') no-repeat -144px 0;
+}
+
+.react-tree-lines .react-tree-collapsed {
+    background: url('../../img/tree_icons.png') no-repeat -128px 0;
+}
+
+.react-tree-lines .react-tree-node-last .react-tree-join {
+    background: url('../../img/tree_icons.png') no-repeat -160px 0;
+}
+
+.react-tree-lines .react-tree-node-last .react-tree-expanded {
+    background: url('../../img/tree_icons.png') no-repeat -80px 0;
+}
+
+.react-tree-lines .react-tree-node-last .react-tree-collapsed {
+    background: url('../../img/tree_icons.png') no-repeat -64px 0;
+}
+
+span.react-tree-title {
+    line-height: 18px;
+}
+
+.react-treetable a.tagAImgBtn {
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+div.react-tree-table-tool-div {
+    text-align: right;
+    font-size: 14px;
+    padding: 0;
+    background: rgba(205, 232, 255, 0.3) !important;
+    border: 1px solid #95b8e7;
+    border-bottom: 0;
+    margin: 0px 10px;
+    line-height: 1.42857143;
+    padding: 10px 15px;
+}
+
+div.react-tree-table-tool-div input[type=button] {
+    margin-left: 5px;
+}
+
+div.react-tree-table-tool-div input[type=text] {
+    font-weight: normal;
+}
+
+div.react-treetable-cell-c1c-editBtns {
+    overflow: inherit;
+}
+
+.max_width_div {
+    width: 100%;
+}
+
+div.no_head_treeTable_panel {
+    padding-top: 0 !important;
+    margin: -1px 0 0;
+    width: 100%;
+}
+
+.no_head_treeTable {
+    height: 220px !important;
+    padding-left: 0 !important;
+}
+
+.relate_table_content_height {
+    height: 250px !important;
+}
+
+.tree-table-head {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.tree-table-head-buttons {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}

@@ -1,0 +1,61 @@
+.alert-main {
+    max-width: 380px;
+    min-height: 60px;
+    min-width: 60px;
+    right: 8px;
+    bottom: 8px;
+    position: fixed;
+    overflow: auto;
+    z-index: 2099;
+}
+
+.alert-none {
+    display: none;
+}
+
+.alert-item {
+    word-wrap: break-word;
+    padding: 10px 15px;
+    background-color: rgb(248 248 248);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #5a5a5a;
+    display: flex;
+    margin: 10px;
+}
+
+.alert-close {
+    right: 15px;
+    cursor: pointer;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.alert-close:hover {
+    opacity: 1;
+}
+
+.alert-close:before {
+    content: "\e967";
+}
+
+.alert-content {
+    margin-right: 15px;
+    text-indent: 10px;
+}
+
+.alert-item > .icon-refresh {
+    width: 15px;
+    height: 19px;
+    cursor: none;
+}
+
+.alert-item > .icon-error {
+    color: red;
+    margin-right: 5px;
+}
+
+.alert-item > .icon-check-mark {
+    color: green;
+    margin-right: 5px;
+}
+

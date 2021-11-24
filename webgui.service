@@ -1,0 +1,13 @@
+[Unit]
+After=networking.service
+
+[Unit]
+After=networking.service
+
+[Service]
+ExecStart=/bin/sh -c '/opt/infinera/thanos/local/www/start.sh'
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

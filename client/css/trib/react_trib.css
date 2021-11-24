@@ -1,0 +1,119 @@
+div.trib_div {
+    position: absolute;
+    z-index: 1003;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    height: 0;
+    width: 215px;
+    max-height: 240px;
+    overflow: hidden;
+    left: -177px;
+}
+
+div.trib_div_show {
+    z-index: 1003;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    height: 0;
+    width: 215px;
+    max-height: 240px;
+    overflow: hidden;
+    left: -177px;
+}
+
+div.alertTribSlot {
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-height: 240px;
+}
+
+div.trib_div_top {
+    top: 0;
+}
+
+div.tribDivUnfold_top {
+    top: -241px;
+    height: 240px;
+}
+
+div.tribDivUnfold_bottom {
+    height: 240px;
+}
+
+div.trib_ulDiv {
+    max-height: 210px;
+    overflow-y: auto;
+    margin-bottom: 5px;
+}
+
+ul.trib_ul {
+    padding-left: 5px;
+}
+
+ul.trib_ul li {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    list-style: none;
+    display: block;
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+}
+
+div.tipItem {
+    width: 18px;
+    height: 18px;
+}
+
+div.usedItem {
+    margin-top: 2px;
+}
+
+div.unUsedItem {
+    margin-top: 2px;
+}
+
+.paddingSet > div {
+    padding: 1px;
+}
+
+div.testDiv {
+    width: 500px;
+    height: 300px;
+}
+
+div.trib_info div {
+    height: 25px;
+    line-height: 25px;
+    font-size: 10px;
+}
+
+div.trib_info span {
+    font-size: 10px;
+}
+
+.tribInputError {
+    padding: 3px;
+}
+
+button.react-trib-slot-btn {
+    height: 28px;
+}

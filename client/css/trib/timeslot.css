@@ -1,0 +1,310 @@
+.time_slot-wrapper, .opucn-time-slot-wrapper {
+    position: fixed;
+    z-index: 9999;
+    display: none;
+    margin-top: 0px;
+    height: 290px;
+    background-color: white;
+    font-size: 10px;
+    transition: opacity .5s;
+    box-shadow: 0px 0px 6px #000; /*flex-flow:row nowrap;*/
+    border-radius: 5px;
+}
+
+.time_slot-wrapper {
+    width: 560px;
+}
+
+.opucn-time-slot-wrapper {
+    width: 580px;
+}
+
+.time-slot-hidden {
+    display: none;
+}
+
+.opucn-time-slot-content, .time-slot-content {
+    height: 240px;
+    float: left;
+    overflow-y: scroll;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-right: 1px solid gray;
+}
+.opucn-time-slot-content{
+    width: 400px;
+}
+.time-slot-content {
+    width: 380px;
+}
+
+
+.time-slot-title {
+    height: 15px;
+    width: 280px;
+    line-height: 15px;
+    text-align: center;
+    color: black;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;;
+}
+
+.time-slot {
+    float: left;
+    width: 35px;
+    height: 30px;
+    line-height: 15px;
+    margin: 5px;
+    border-radius: 0.2em;
+    text-align: center;
+    background-color: #BBFFBB;
+}
+
+div .blockSize1{
+    line-height: 30px;
+}
+
+.time-slots-table {
+    text-align: center;
+    width: 320px;
+    height: 100px;
+    border: 1px solid black;
+    mso-cellspacing: 0;
+    margin-left: 5px;
+    /*float: right;*/
+
+}
+
+td.selected {
+    background-color: #FFD306;
+}
+
+
+.opucn-time-slot {
+    background-color: #BBFFBB;
+
+}
+
+.time-slots-block {
+    display: grid;
+    padding: 5px;
+}
+
+.time-slots-block #item1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-area: 1 / 1 / span 2 / span 1;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 27px;
+}
+
+.time-slots-block #item2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-area: 1 / 2 / span 1 / span 1;
+    border: 1px solid black;
+    height: 32px;
+
+}
+
+.time-slots-block #item3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-area: 2 / 2 / span 1 / span 1;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    height: 31px;
+
+}
+
+
+.timeslot-center {
+    /*border-left:1px solid black;*/
+    border-right: 1px solid black;
+}
+
+.opucn-time-slot {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 35px;
+    height: 30px;
+}
+
+.time-slots-table td {
+    border: 1px solid black;
+}
+
+.time-slot:not(.occupied):hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.show-case {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 120px;
+    border-radius: 6px;
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    flex-flow: column;
+
+}
+
+.show-case > .show-case-item {
+    display: flex;
+    /*justify-content: center;*/
+    flex-flow: row;
+    align-items: center;
+
+}
+
+.show-case .time-slot {
+    width: 35px;
+    height: 20px;
+}
+
+.occupied {
+    background-color: #BEBEBE;
+}
+
+div.selected {
+    background-color: #FFD306;
+}
+
+.continuous-number {
+    width: 55px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+.time-slots-description {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 6px;
+    color: black;
+
+}
+
+.select-need-slot {
+    margin-top: 5px;
+}
+
+span.select-number-error {
+    color: red;
+}
+
+
+.continue-option, .opucn-continue-option {
+    color: black;
+    margin-left: 10px;
+    margin-top: 50px;
+    vertical-align: center;
+}
+
+
+.clear-time-slot-button {
+    width: 50px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    color: white;
+    border-radius: 6px;
+    display: block;
+    background: #337ab7;
+    color: #fff;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size:14px;
+}
+
+
+.clear-time-slot-button:hover {
+    background-color: #449d44;
+    border-color: #398439;
+    cursor: pointer;
+}
+
+.timeslot-button-wrapper , .opcun-timeslot-button-wrapper{
+    float: left;
+    margin-top: 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.opcun-timeslot-button-wrapper {
+    width: 580px;
+}
+
+.timeslot-button-wrapper{
+    width: 560px;
+}
+
+.timeslot-button-content {
+    width: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.timeslot-tooltip {
+    float: left;
+    width: 180px;
+    height: 240px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+}
+
+.time-slot-input-correct, .odu-type-correct, .user-input-correct {
+    display: none;
+}
+
+.time-slot-input-wrong, .odu-type-wrong, .user-input-wrong {
+    color: red;
+}
+
+.my-open > .time_slot-wrapper, .my-open > .opucn-time-slot-wrapper {
+    display: block;
+}
+
+.has-error .help-block-time-slot {
+    color: #a94442;
+    display: block;
+}
+
+.tooltip-style {
+    background-color: red !important;
+}
+
+.icon-font-div {
+    position: absolute;
+    right: -5px;
+    top: 2px;
+}
+
+.icon-font-div:hover {
+    cursor: pointer;
+}

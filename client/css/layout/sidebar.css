@@ -1,0 +1,46 @@
+.sidebar-body {
+    overflow: hidden auto;
+    padding-top: 2px;
+    height: 100%;
+}
+
+.sidebar-body a {
+    display: block;
+    position: relative;
+    height: 29px;
+    line-height: 29px;
+    padding-right: 10px;
+}
+
+.sidebar-body .sidebar_selected:hover {
+    background-color: #d4d8e0;
+}
+
+.nav-icon,
+.nav-text {
+    color: #f8f8ff;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.sidebar-body .nav-text {
+    padding-left: 45px;
+}
+
+.sidebar-body .nav-icon {
+    position: absolute;
+    left: 20px;
+    top: 1px;
+    font-size: 14px;
+}
+
+.sidebar_selected {
+    background: #eff0ee;
+    transition: .5s;
+}
+
+.sidebar_selected .nav-icon,
+.sidebar_selected .nav-text {
+    color: #1587da;
+    transition: .5s;
+}

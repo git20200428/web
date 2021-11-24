@@ -1,0 +1,135 @@
+{
+  "dashboard": {
+    "name": "dashboard",
+    "icon": "icon-dashboard"
+  },
+  "chassisboardview": {
+    "name": "chassisboardview",
+    "icon": "icon-system"
+  },
+  "configurationview": {
+    "name": "configurationview",
+    "icon": "icon-server",
+    "default": "facility",
+    "panels": {
+      "equipment": {"name": "equipment", "items": ["equipment"],"helpString": "equipmentmain"},
+      "facility": {"name": "facility", "items": ["facility"],"helpString": "facilitymain"},
+      "inventory": {"name": "inventory", "items": ["total$inventory"],"helpString": "inventorymain"},
+      "capability": {"name": "capability", "items": ["supported-chassis", "supported-card", "tom-type"],"helpString": "capabilitymain"}
+    }
+  },
+  "service": {
+    "name": "service",
+    "icon": "icon-arrows-alt",
+    "default": "service",
+    "panels": {
+      "service": {"name": "service", "items": ["xcon","ethzr-server"],"helpString": "servicemain"},
+      "service-view": {"name": "service-view", "items": ["topo"]}
+    }
+  },
+  "fault": {
+    "name": "fault",
+    "icon": "icon-bell",
+    "default": "current-alarm",
+    "panels": {
+      "current-alarm": {"name": "current-alarm", "items": ["alarm"]},
+      "history-alarm": {"name": "history-alarm", "items": ["history-alarm"]},
+      "event": {"name": "event", "items": ["fault_event"]},
+      "tca": {"name": "tca", "items": ["tca"]},
+      "alarm-control": {"name": "alarm-control", "items": ["alarm-control", "alarm-severity-entry"]}
+    }
+  },
+  "pm": {
+    "name": "pm",
+    "icon": "icon-bar-chart",
+    "default": "pm-data",
+    "panels": {
+      "pm-data": {"name": "pm-data", "items": ["get-pm"]},
+      "pm-control": {"name": "pm-control", "items": ["pm-resource"],"helpString": "pmcontrolmain"},
+      "pm-profile": {"name": "pm-profile", "items": ["pm-profile-entry"],"helpString": "pmprofilemain"},
+      "pm-catalog": {"name": "pm-catalog", "items": ["pm-parameter"]}
+    }
+  },
+  "network": {
+    "name": "network",
+    "icon": "icon-link",
+    "default": "interface",
+    "panels": {
+      "interface": {"name": "interface", "items": ["interface"],"helpString": "interfacemain"},
+      "routing": {"name": "routing", "items": ["ipv4-static-route", "ipv6-static-route", "ospf-instance"],"helpString": "routingmain"},
+      "rib": {"name": "rib", "items": ["rib"]},
+      "vrf": {"name": "vrf", "items": ["vrf"]},
+      "acl": {"name": "acl", "items": ["acl"],"helpString": "aclmain"},
+      "dns": {"name": "dns", "items": ["dns", "dns-server"],"helpString": "dnsmain"},
+      "tool": {"name": "tool", "items": ["tools"],"helpString": "toolmain"}
+    }
+  },
+  "security": {
+    "name": "security",
+    "icon": "icon-users",
+    "default": "user",
+    "panels": {
+      "user": {"name": "user", "items": ["user", "user-group"],"helpString": "usermain"},
+      "session": {"name": "session", "items": ["session"]},
+      "aaa-server": {"name": "aaa-server", "items": ["aaa-server"]},
+      "certificate": {
+        "name": "certificate",
+        "items": ["trusted-certificate", "local-certificate","peer-certificate", "secure-application"],
+        "helpString": "certificatemain"
+      },
+      "image-key": {"name": "image-key", "items": ["ISK", "KRK"], "helpString": "imagekeymain"},
+      "krp": {"name": "krp", "items": ["key-replacement-package"]},
+      "security-policy": {"name": "security-policy", "items": ["security-policies"]}
+    }
+  },
+  "system": {
+    "name": "system",
+    "icon": "icon-cog",
+    "default": "system-info",
+    "panels": {
+      "system-info": {"name": "system-info", "items": ["ne-info","ne-location", "ne-state","ne-recover-status"],"helpString": "systeminfomain"},
+      "sw_fw": {"name": "sw_fw", "items": ["sw-management.software-load", "software-location", "manifest","third-party-fw"],"helpString": "sw"},
+      "sw-service": {"name": "sw-service", "items": ["sw-service", "sw-container"]},
+      "db": {"name": "db", "items": ["database"],"helpString": "database"},
+      "transfer": {"name": "transfer", "items": ["transfer-status","file-server","script-list","file-operation"],"helpString": "transfermain"},
+      "syslog": {"name": "syslog", "items": ["syslog", "log-server", "log-file", "log-console"],"helpString": "syslogmain"},
+      "show-log": {"name": "show-log", "items": ["get-log"]},
+      "clock": {"name": "clock", "items": ["clock"],"helpString": "clockmain"},
+      "ntp": {"name": "ntp", "items": ["ntp", "ntp-key", "ntp-server"],"helpString": "ntpmain"},
+      "ztp": {"name": "ztp", "items": ["ztp"]},
+      "task": {"name": "task", "items": ["task"],"helpString": "taskmain"}
+    }
+  },
+  "protocol": {
+    "name": "protocol",
+    "icon": "icon-protocol",
+    "default": "ssh",
+    "panels": {
+      "ssh": {"name": "ssh", "items": ["ssh", "ssh-host-key", "ssh-known-host","ssh-authorized-key"]},
+      "cli": {"name": "cli", "items": ["cli", "cli-alias"]},
+      "serial-console": {"name": "serial-console", "items": ["serial-console"]},
+      "netconf": {"name": "netconf", "items": ["netconf"]},
+      "restconf": {"name": "restconf", "items": ["restconf"]},
+      "grpc": {"name": "grpc", "items": ["grpc"]},
+      "snmp": {"name": "snmp", "items": ["snmp","snmp-community","snmpv3-user",  "snmp-target"]},
+      "httpfileserver": {"name": "httpfileserver", "items": ["http-file-server"]},
+      "dial-out": {"name": "dial-out", "items": ["dial-out-server"]}
+    }
+  },
+  "topology": {
+    "name": "topology",
+    "icon": "icon-external-link",
+    "default": "lldp",
+    "panels": {
+      "lldp": {"name": "lldp", "items": ["lldp", "lldp-neighbor", "lldp-port-statistics"]}
+    }
+  },
+  "report": {
+    "name": "report",
+    "icon": "icon-file-text-o",
+    "default": "report",
+    "panels": {
+      "report": {"name": "report", "items": ["report"]}
+    }
+  }
+}

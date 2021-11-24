@@ -1,0 +1,3 @@
+systemctl stop webgui.service
+systemctl disable webgui.service
+systemctl daemon-reload

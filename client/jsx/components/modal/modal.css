@@ -1,0 +1,161 @@
+
+.modal-parent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1000;
+}
+
+.modal-dialog-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+    position: relative;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.modal-dialog-wrapper {
+    position: relative;
+    width: 570px;
+    height: 300px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+
+.modal-dialog-item {
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #556;
+}
+
+.modal-dialog-header {
+    height: 50px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.modal-dialog-content {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 0 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.modal-dialog-content > i {
+    font-size: 80px;
+    color: orange;
+    margin-right: 50px;
+}
+
+.modal-dialog-content > pre {
+    font-size: 16px;
+}
+
+.modal-dialog-footer {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.modal-dialog-footer > button {
+    min-width: 80px;
+    min-height: 35px;
+    margin: 0 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.modal-dialog-footer > button:hover {
+    background-color: #449d44;
+    cursor: pointer;
+}
+
+.message {
+    margin-bottom: 1px;
+}
+
+.message-modal-dialog-wrapper {
+    position: relative;
+    width: 570px;
+    height: 300px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+
+.message-modal-dialog-content {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 0 30px;
+    height: 180px;
+}
+
+.message-modal-dialog-content > i {
+    font-size: 80px;
+    color: orange;
+    margin-right: 50px;
+    width: 60px;
+    height: 170px;
+    line-height: 170px;
+    vertical-align: top;
+}
+
+.message-content {
+    display: inline-block;
+    width: 378px;
+    line-height: 20px;
+    height: 170px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.message-modal-dialog-wrapper2 {
+    position: relative;
+    width: 700px;
+    height: 340px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+.message-modal-dialog-content2 {
+    border-top: 1px solid #999;
+    height: 290px;
+}
+.message-content2 {
+    line-height: 16px;
+    height: 270px;
+    overflow: auto;
+    margin-top:5px;
+    margin-left:20px;
+}
+.modal-dialog-header > i {
+    font-size: 20px;
+    color: orange;
+    margin-left: -480px;
+}

@@ -1,0 +1,27 @@
+
+.CHM2 {
+    height: 20px !important;
+}
+
+.CHM1 {
+    height: 20px !important;
+}
+
+.CHM1G {
+    height: 20px !important;
+}
+
+.react-service-control {
+    border-radius: 3px !important;
+}
+
+div.react-subcard-amplifile-div {
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+
+div.react-subcard-amplifile-div.subcard-last {
+    width: 34%;
+    border-right: none;
+}

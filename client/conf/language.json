@@ -1,0 +1,1323 @@
+{
+    "show_column": {
+        "en": "Show Column",
+        "zh": "显示列"
+    },
+    "message.please_enter": {
+        "en": "Please Enter {0}",
+        "zh": "请输入{0}"
+    },
+    "detail": {
+        "zh": "明细"
+    },
+    "edit": {
+        "zh": "编辑"
+    },
+    "delete": {
+        "zh": "删除"
+    },
+    "create": {
+        "zh": "创建"
+    },
+    "filter-service": {
+        "en": "Service",
+        "zh": "业务"
+    },
+    "httpfileserver": {
+        "en": "HTTP File Server"
+    },
+    "https-port": {
+        "en": "HTTPs Port"
+    },
+    "filter-alarm": {
+        "en": "Alarm",
+        "zh": "告警"
+    },
+    "filter-event": {
+        "en": "Event",
+        "zh": "事件"
+    },
+    "filter-pm-control": {
+        "en": "PM Control",
+        "zh": "性能控制"
+    },
+    "filter-real-time-pm": {
+        "en": "Real Time PM",
+        "zh": "实时性能"
+    },
+    "filter-current-pm": {
+        "en": "Current PM",
+        "zh": "当前性能"
+    },
+    "filter-history-pm-15min": {
+        "en": "History PM 15min",
+        "zh": "15分钟历史性能"
+    },
+    "filter-history-pm-24h": {
+        "en": "History PM 24h",
+        "zh": "24小时历史性能"
+    },
+    "history-alarm": {
+        "en": "History Alarm",
+        "zh": "历史告警"
+    },
+    "set-alarm-state": {
+        "en": "Set Alarm State",
+        "zh": "设置告警状态"
+    },
+    "default": {
+        "en": "Default",
+        "zh": "默认"
+    },
+    "selected": {
+        "en": "Selected",
+        "zh": "已选"
+    },
+    "confirm-default-select": {
+        "en": "Confirm default select",
+        "zh": "请确认选择"
+    },
+    "confirm-default-all": {
+        "en": "Confirm default all",
+        "zh": "请确认全部选择"
+    },
+    "all": {
+        "en": "All",
+        "zh": "全选"
+    },
+    "alarm-control": {
+        "en": "Alarm Control",
+        "zh": "告警控制"
+    },
+    "alarm-severity-profile": {
+        "en": "Alarm Severity Profile",
+        "zh": "告警级别配置文件"
+    },
+    "group_by_entity": {
+        "en": "Group By Entity",
+        "zh": "按对象分组"
+    },
+    "group_by_type": {
+        "en": "Group By Type",
+        "zh": "按类型分组"
+    },
+    "edit_setting": {
+        "en": "Edit Configurations",
+        "zh": "编辑设置"
+    },
+    "theme-setting": {
+        "en": "Theme Setting",
+        "zh": "主题设置"
+    },
+    "webTheme": {
+        "en": "Web Theme",
+        "zh": "Web主题"
+    },
+    "dayTime": {
+        "en": "DayTime",
+        "zh": "白天"
+    },
+    "night": {
+        "en": "Night",
+        "zh": "夜晚"
+    },
+    "webLanguage": {
+        "en": "Web Language",
+        "zh": "Web语言"
+    },
+    "logout": {
+        "en": "Logout",
+        "zh": "退出"
+    },
+    "db-action": {
+        "en": "DB Action"
+    },
+    "confirm.logout": {
+        "en": "Are you sure to logout?",
+        "zh": "您确定退出系统？"
+    },
+    "ne": {
+        "en": "NE",
+        "zh": "网元"
+    },
+    "yes": {
+        "zh": "是"
+    },
+    "no": {
+        "zh": "否"
+    },
+    "menu": {
+        "zh": "菜单"
+    },
+    "critical": {
+        "zh": "严重告警"
+    },
+    "major": {
+        "zh": "主要告警"
+    },
+    "minor": {
+        "zh": "次要告警"
+    },
+    "not-reported": {
+        "en": "Not Reported",
+        "zh": "不上报"
+    },
+    "warning": {
+        "zh": "警告"
+    },
+    "collapse": {
+        "zh": "收起"
+    },
+    "home": {
+        "zh": "首页"
+    },
+    "operation_success": {
+        "en": "Operation Success",
+        "zh": "操作成功"
+    },
+    "create_card": {
+        "en": "Create Card",
+        "zh": "创建板卡"
+    },
+    "enable_led": {
+        "en": "Enable LED Test",
+        "zh": "启用LED"
+    },
+    "disable_led": {
+        "en": "Disable LED Test",
+        "zh": "禁用LED"
+    },
+    "properties": {
+        "zh": "属性"
+    },
+    "delete_card": {
+        "en": "Delete Card",
+        "zh": "删除板卡"
+    },
+    "restart": {
+        "zh": "重启"
+    },
+    "create_super-channel": {
+        "en": "Create Super Channel",
+        "zh": "创建Super Channel"
+    },
+    "create_flexo-group": {
+        "en": "Create FlexO Group",
+        "zh": "创建FlexO Group"
+    },
+    "create_eth-zr": {
+        "en": "Create EthZR",
+        "zh": "创建EthZR"
+    },
+    "create_tom": {
+        "en": "Create TOM",
+        "zh": "创建TOM"
+    },
+    "delete_tom": {
+        "en": "Delete TOM",
+        "zh": "删除TOM"
+    },
+    "properties_slot": {
+        "en": "Properties",
+        "zh": "属性"
+    },
+    "properties_port": {
+        "en": "Port",
+        "zh": "Port"
+    },
+    "properties_trib-ptp": {
+        "en": "PTP",
+        "zh": "PTP"
+    },
+    "properties_ethernet": {
+        "en": "Ethernet",
+        "zh": "Ethernet"
+    },
+    "properties_otu": {
+        "en": "OTU",
+        "zh": "OTU"
+    },
+    "properties_odu": {
+        "en": "ODU",
+        "zh": "ODU"
+    },
+    "properties_line-ptp": {
+        "en": "PTP",
+        "zh": "PTP"
+    },
+    "properties_optical-carrier": {
+        "en": "Optical Carrier",
+        "zh": "Optical Carrier"
+    },
+    "properties_eth-zr": {
+        "en": "EthZR",
+        "zh": "EthZR"
+    },
+    "properties_flexo": {
+        "en": "FlexO",
+        "zh": "FlexO"
+    },
+    "create_xcon": {
+        "en": "Create XCON",
+        "zh": "创建交叉连接"
+    },
+    "auto-create-xcon": {
+        "en": "Auto Create XCON",
+        "zh": "自动创建交叉连接"
+    },
+    "xcon": {
+        "zh": "交叉连接"
+    },
+    "chassis-frame": {
+        "en": "Chassis",
+        "zh": "机框"
+    },
+    "chassisview": {
+        "en": "Physical Chassis",
+        "zh": "机框图"
+    },
+    "confirm.enable_led": {
+        "en": "Are you sure to enable LED Test on <b class='color_warning_mgs'>{0}</b>?",
+        "zh": "你确定要启用{0}上的LED吗？"
+    },
+    "confirm.disable_led": {
+        "en": "Are you sure to disable LED Test on <b class='color_warning_mgs'>{0}</b>?",
+        "zh": "你确定要禁用{0}上的LED吗？"
+    },
+    "submit": {
+        "en": "Submit",
+        "zh": "提交"
+    },
+    "about": {
+        "en": "About",
+        "zh": "关于"
+    },
+    "password": {
+        "zh": "密码"
+    },
+    "chassisboardview": {
+        "en": "System & Chassis",
+        "zh": "系统和机框"
+    },
+    "configurationview": {
+        "en": "Equipment & Facility",
+        "zh": "设备和设施"
+    },
+    "pm": {
+        "zh": "性能管理"
+    },
+    "fault": {
+        "en": "Alarm & Event",
+        "zh": "告警和事件"
+    },
+    "neighbor-ne": {
+        "zh": "相邻网元"
+    },
+    "dashboard": {
+        "zh": "仪表板"
+    },
+    "report": {
+        "zh": "报表"
+    },
+    "network": {
+        "en": "Networking",
+        "zh": "网络管理"
+    },
+    "security": {
+        "zh": "安全管理"
+    },
+    "system": {
+        "zh": "系统管理"
+    },
+    "inventory": {
+        "zh": "设备清单"
+    },
+    "system-properties": {
+        "zh": "系统信息"
+    },
+    "equipment": {
+        "zh": "设备"
+    },
+    "facility": {
+        "zh": "设施"
+    },
+    "capabilities": {
+        "zh": "设备能力"
+    },
+    "reload": {
+        "en": "Refresh",
+        "zh": "刷新"
+    },
+    "load": {
+        "zh": "加载"
+    },
+    "expand_all": {
+        "en": "Expand All",
+        "zh": "全部展开"
+    },
+    "collapse_all": {
+        "en": "Collapse All",
+        "zh": "全部收起"
+    },
+    "export": {
+        "zh": "导出"
+    },
+    "service": {
+        "zh": "业务"
+    },
+    "capability": {
+        "zh": "能力"
+    },
+    "current-alarm": {
+        "zh": "当前告警"
+    },
+    "help": {
+        "zh": "帮助"
+    },
+    "supported-chassis": {
+        "zh": "支持的机框"
+    },
+    "supported-card": {
+        "zh": "支持的板卡"
+    },
+    "supported-tom": {
+        "zh": "支持的TOM"
+    },
+    "pm-resource": {
+        "zh": "性能资源"
+    },
+    "pm-data": {
+        "zh": "性能数据"
+    },
+    "pm-control": {
+        "zh": "性能控制"
+    },
+    "pm-profile": {
+        "zh": "性能概述"
+    },
+    "pm-profile-entry": {
+        "zh": "性能概述"
+    },
+    "pm-catalog": {
+        "zh": "性能目录"
+    },
+    "pm-parameter": {
+        "zh": "性能参数"
+    },
+    "ssh-host-key": {
+        "zh": "SSH主机密钥"
+    },
+    "ssh-known-host": {
+        "zh": "SSH已知主机"
+    },
+    "carrier-neighbor": {
+        "zh": "载体邻居"
+    },
+    "ne-location": {
+        "zh": "网元位置"
+    },
+    "ne-state": {
+        "zh": "网元状态"
+    },
+    "ne-recover-status": {
+        "zh": "网元复原状态"
+    },
+    "ntp-key": {
+        "zh": "NTP钥匙"
+    },
+    "routing": {
+        "zh": "路由"
+    },
+    "trusted-certificate": {
+        "zh": "可信的证书"
+    },
+    "local-certificate": {
+        "zh": "本地证书"
+    },
+    "interface": {
+        "zh": "接口"
+    },
+    "cli": {
+        "zh": "命令行"
+    },
+    "cli-alias": {
+        "zh": "命令行别名"
+    },
+    "export_pdf": {
+        "en": "Export PDF",
+        "zh": "导出PDF"
+    },
+    "export_json": {
+        "en": "Export JSON",
+        "zh": "导出JSON"
+    },
+    "export_csv": {
+        "en": "Export CSV",
+        "zh": "导出CSV"
+    },
+    "label.all": {
+        "en": "-All-",
+        "zh": "-所有-"
+    },
+    "aaa-server": {
+        "zh": "AAA服务器"
+    },
+    "ntp-server": {
+        "zh": "NTP服务器"
+    },
+    "show": {
+        "zh": "显示"
+    },
+    "clear": {
+        "zh": "清除"
+    },
+    "clear-topology": {
+        "zh": "清除拓扑"
+    },
+    "please-select": {
+        "en": "-Please Select-",
+        "zh": "-请选择-"
+    },
+    "label.admin": {
+        "en": "Admin",
+        "zh": "Admin"
+    },
+    "label.oper": {
+        "en": "Oper",
+        "zh": "Oper"
+    },
+    "lldp-neighbor": {
+        "zh": "链路邻居信息"
+    },
+    "lldp-port-statistics": {
+        "zh": "LLDP 端口统计"
+    },
+    "message.page": {
+        "en": "Current Page {0} / Total Page {1}  Total Record {2}",
+        "zh": "当前页{0} / 总页数{1}  总记录数{2}"
+    },
+    "error.config.long": {
+        "en": "The  {0} should be [{1} ~ {2}] characters long",
+        "zh": "{0}的字符长度为[{1} ~ {2}]。"
+    },
+    "error.config.required": {
+        "en": "The {0} is required.",
+        "zh": "{0}是必须的."
+    },
+    "clear-recover-mode": {
+        "en": "Clear Recover Mode",
+        "zh": "清除模式"
+    },
+    "chassis.inventory": {
+        "en": "Inventory",
+        "zh": "设备"
+    },
+    "ssh-strict-host-key-checking": {
+        "en": "SSH Strict Host Key Checking"
+    },
+    "hardware-version": {
+        "en": "HW Version"
+    },
+    "ipv4-enabled": {
+        "en": "IPv4 Enabled"
+    },
+    "ipv4-loopback-address": {
+        "en": "IPv4 Loopback Address",
+        "zh": "IPv4 Loopback Address"
+    },
+    "ipv6-loopback-address": {
+        "en": "IPv6 Loopback Address",
+        "zh": "IPv6 Loopback Address"
+    },
+    "loopback-ipv4": {
+        "en": "Loopback IPv4",
+        "zh": "Loopback IPv4"
+    },
+    "loopback-ipv6": {
+        "en": "Loopback IPv6",
+        "zh": "Loopback IPv6"
+    },
+    "ipv6-enabled": {
+        "en": "IPv6 Enabled",
+        "zh": "IPv6启用"
+    },
+    "sw-component": {
+        "en": "SW Component"
+    },
+    "if-type": {
+        "zh": "IF类型"
+    },
+    "if-name": {
+        "zh": "IF名称"
+    },
+    "if-description": {
+        "zh": "IF描述"
+    },
+    "ipv4-address-assignment-method": {
+        "en": "IPv4 Address Assignment",
+        "zh": "IPv4 Address Assignment"
+    },
+    "ipv6-address-assignment-method": {
+        "en": "IPv6 Address Assignment",
+        "zh": "IPv6 Address Assignment"
+    },
+    "ipv4-destination-prefix": {
+        "en": "IPv4 Destination Prefix",
+        "zh": "IPv4 Destination Prefix"
+    },
+    "ipv6-destination-prefix": {
+        "en": "IPv6 Destination Prefix",
+        "zh": "IPv6 Destination Prefix"
+    },
+    "ip-address": {
+        "zh": "IP地址"
+    },
+    "ipv4-address": {
+        "en": "IPv4 Address",
+        "zh": "IPv4地址"
+    },
+    "ipv6-address": {
+        "en": "IPv6 Address",
+        "zh": "IPv6地址"
+    },
+    "local-ip-address": {
+        "zh": "本地IP地址"
+    },
+    "session-id": {
+        "zh": "会话ID"
+    },
+    "source-ip": {
+        "en": "Source IP",
+        "zh": "源IP"
+    },
+    "ace": {
+        "en": "ACE",
+        "zh": "ACE"
+    },
+    "source-ip-address": {
+        "en": "Source IP Address",
+        "zh": "Source IP Address"
+    },
+    "destination-ip-address": {
+        "en": "Destination IP Address",
+        "zh": "Destination IP Address"
+    },
+    "image-key": {
+        "en": "Image Key",
+        "zh": "密钥"
+    },
+    "serial-console": {
+        "en": "Serial Console",
+        "zh": "串行控制台"
+    },
+    "show-log": {
+        "en": "Show Log",
+        "zh": "日志显示"
+    },
+    "key-serial-number": {
+        "en": "Key SN",
+        "zh": "Key SN"
+    },
+    "aaa-authentication": {
+        "zh": "AAA认证"
+    },
+    "swload-label": {
+        "en": "Label",
+        "zh": "Label"
+    },
+    "swload-status": {
+        "en": "Status",
+        "zh": "Status"
+    },
+    "swload-product": {
+        "en": "Product",
+        "zh": "Product"
+    },
+    "swload-state": {
+        "en": "State",
+        "zh": "State"
+    },
+    "swload-vendor": {
+        "en": "Vendor",
+        "zh": "Vendor"
+    },
+    "swload-information": {
+        "en": "Information",
+        "zh": "Information"
+    },
+    "swload-version": {
+        "en": "Version",
+        "zh": "Version"
+    },
+    "swload-manifest": {
+        "en": "Manifest",
+        "zh": "Manifest"
+    },
+    "swload-prepared": {
+        "en": "Prepared",
+        "zh": "Prepared"
+    },
+    "swload-delta-label": {
+        "en": "Delta Label",
+        "zh": "Delta Label"
+    },
+    "user-status": {
+        "en": "Status",
+        "zh": "Status"
+    },
+    "user-aaa-type": {
+        "en": "AAA Type",
+        "zh": "AAA Type"
+    },
+    "user-admin-state": {
+        "en": "Admin State",
+        "zh": "Admin State"
+    },
+    "ok": {
+        "en": "OK",
+        "zh": "确定"
+    },
+    "cancel": {
+        "zh": "取消"
+    },
+    "confirm_to_change_value": {
+        "en": "Are you sure to change the <b class='color_warning_mgs'>{0}</b> to <b class='color_warning_mgs'>{1}</b>?",
+        "zh": "确定要修改{0} 为 {1}?"
+    },
+    "login_timeout": {
+        "en": "Login timeout, please login again!",
+        "zh": "登录超时，请重试!"
+    },
+    "operation_failed": {
+        "en": "Operation failed! {0}",
+        "zh": "操作失败! {0}"
+    },
+    "websocket_error": {
+        "en": "The Web Server can't be reached, try checking the connection and relogin again.",
+        "zh": "Web Server 无法连接,请检查网络是否正常，并重新登录."
+    },
+    "confirm_delete": {
+        "en": "Are you sure to delete the <b class='color_warning_mgs'>{0}</b>?",
+        "zh": "您确认要删除 {0} 吗？"
+    },
+    "error_confirm_delete": {
+        "en": "Are you sure to delete it?",
+        "zh": "您确认要删除它吗？"
+    },
+    "filter-facilities": {
+        "en": "Facility",
+        "zh": "资源"
+    },
+    "filter-equipment": {
+        "en": "Equipment",
+        "zh": "设备"
+    },
+    "confirm_default": {
+        "en": "Are you sure to default the <b class='color_warning_mgs'>{0}</b>?",
+        "zh": "Are you sure to default the <b class='color_warning_mgs'>{0}</b>?"
+    },
+    "confirm_default_select": {
+        "en": "Are you sure to default these <b class='color_warning_mgs'>{0}</b> records?"
+    },
+    "confirm_default_all": {
+        "en": "Are you sure to default all <b class='color_warning_mgs'>{0}</b> records?"
+    },
+    "port.inventory": {
+        "en": "Inventory",
+        "zh": "设备"
+    },
+    "traffic-affecting-warning": {
+        "en": "This command can have traffic impact! Are you sure?",
+        "zh": "这个操作将影响业务，是否继续?"
+    },
+    "input_match": {
+        "en": "The {0} must match {1}",
+        "zh": "The {0} must match {1}"
+    },
+    "error_pattern": {
+        "en": "ERROR: pattern not obeyed for {0}",
+        "zh": "错误：{0} 不符合模式"
+    },
+    "click_change": {
+        "en": "Click the button to change value.",
+        "zh": "Click the button to change value."
+    },
+    "error.config.Integer": {
+        "en": "The {0} is {1}.",
+        "zh": "{0} 是 {1}。"
+    },
+    "error.config.between": {
+        "en": "The {0} must be between {1} and {2}.",
+        "zh": "{0} 必须在 {1} 和 {2}之间。"
+    },
+    "error.config.empty": {
+        "en": "{0} can not be empty.",
+        "zh": "{0}不能为空。"
+    },
+    "error_required": {
+        "en": "The {0} is required.",
+        "zh": "The {0} is required."
+    },
+    "passwd_expired": {
+        "en": "Passwd has expired. Please input again!",
+        "zh": "密码已过期，请重新输入"
+    },
+    "login_authentication_failed": {
+        "en": "Login authentication is failed. Please input correct user/password!",
+        "zh": "登录失败，请输入正确的用户名密码！"
+    },
+    "confirm_kill_session": {
+        "en": "Are you sure to kill the session <b class='color_warning_mgs'>{0}</b>?",
+        "zh": "您确定要断开<b class='color_warning_mgs'>{0}</b>会话吗？"
+    },
+    "object_not_exist": {
+        "en": "The object does not exist!",
+        "zh": "对象不存在！"
+    },
+    "set_alarm_profile_default": {
+        "en": "Reset Alarm Severity",
+        "zh": "设置告警参数为默认值"
+    },
+    "clear_pm_warning": {
+        "en": "Are you sure to clear PM as the below filter?{0}",
+        "zh": "您确定要清空它？"
+    },
+    "clear_pm_warning2": {
+        "en": "Are you sure to clear the PM",
+        "zh": "您确定要清空它？"
+    },
+    "traceroute": {
+        "en": "Trace Route",
+        "zh": "Trace Route"
+    },
+    "reset_password": {
+        "en": "Reset Password",
+        "zh": "重置密码"
+    },
+    "-": {
+        "en": "",
+        "zh": ""
+    },
+    "enable-disable-all": {
+        "en": "Enable/Disable All",
+        "zh": "启用/禁用 全部"
+    },
+    "set_profile_default": {
+        "en": "Reset Alarm Severity Profile",
+        "zh": "默认设置"
+    },
+    "ipv4-static-route": {
+        "en": "IPv4 Static Route",
+        "zh": "IPv4静态路由"
+    },
+    "ipv6-static-route": {
+        "en": "IPv6 Static Route",
+        "zh": "IPv6静态路由"
+    },
+    "acknowledge-text": {
+        "en": "Acknowledge Text",
+        "zh": "告警状态确认备注"
+    },
+    "ssh-keygen": {
+        "en": "SSH Key Gen",
+        "zh": "SSH Key Gen"
+    },
+    "permission_denied": {
+        "en": "Permission Denied",
+        "zh": "没有权限"
+    },
+    "confirm_to": {
+        "en": "Are you sure to {0}?",
+        "zh": "你确定要{}?"
+    },
+    "logged_in": {
+        "en": "Logged in",
+        "zh": "当前用户"
+    },
+    "software-location.software-load.fw-version": {
+        "en": "FW Version",
+        "zh": "FW Version"
+    },
+    "sw-management.software-load.packaged-fw": {
+        "en": "Packaged FW",
+        "zh": "Packaged FW"
+    },
+    "software-location.software-load.packaged-fw": {
+        "en": "Packaged FW",
+        "zh": "Packaged FW"
+    },
+    "software-location.software-load.sw-component.sw-subcomponent": {
+        "en": "SW Subcomponent",
+        "zh": "SW Subcomponent"
+    },
+    "sw-management.software-load.sw-component.sw-subcomponent": {
+        "en": "SW Subcomponent",
+        "zh": "SW Subcomponent"
+    },
+    "sw-management.software-load.fw-version": {
+        "en": "FW Version",
+        "zh": "FW Version"
+    },
+    "filter-object-alarm": {
+        "en": "Alarm",
+        "zh": "告警"
+    },
+    "invalidSession": {
+        "en": "Session is disconnected. Please login again!",
+        "zh": "连接已断开，请重新登录！"
+    },
+    "entity-states": {
+        "en": "Entity States",
+        "zh": "设备状态"
+    },
+    "alarm-counters": {
+        "en": "Alarm Counters",
+        "zh": "告警统计"
+    },
+    "service-utilization": {
+        "en": "Service Utilization",
+        "zh": "业务利用率"
+    },
+    "slot": {
+        "en": "Slot",
+        "zh": "插槽"
+    },
+    "card": {
+        "en": "Card",
+        "zh": "板卡"
+    },
+    "related-data": {
+        "en": "Related Data",
+        "zh": "关联数据"
+    },
+    "user": {
+        "zh": "用户"
+    },
+    "session": {
+        "en": "Session",
+        "zh": "会话"
+    },
+    "key": {
+        "en": "Key",
+        "zh": "密钥"
+    },
+    "certificates": {
+        "en": "Certificates",
+        "zh": "证书"
+    },
+    "certificate": {
+        "en": "Certificate",
+        "zh": "证书"
+    },
+    "security-policies": {
+        "en": "Security Policies",
+        "zh": "安全策略"
+    },
+    "security-policy": {
+        "en": "Security Policy",
+        "zh": "安全策略"
+    },
+    "system-info": {
+        "en": "System Info",
+        "zh": "系统信息"
+    },
+    "sw_fw": {
+        "en": "SW",
+        "zh": "软件"
+    },
+    "sw-service": {
+        "en": "SW Service",
+        "zh": "软件服务"
+    },
+    "db": {
+        "en": "DB",
+        "zh": "数据库"
+    },
+    "database": {
+        "en": "Database",
+        "zh": "数据库"
+    },
+    "transfer": {
+        "zh": "传输"
+    },
+    "log": {
+        "zh": "日志"
+    },
+    "clock": {
+        "zh": "时钟"
+    },
+    "file-server": {
+        "zh": "文件服务器"
+    },
+    "task": {
+        "zh": "任务"
+    },
+    "ne-info": {
+        "zh": "网元信息"
+    },
+    "user-group": {
+        "zh": "用户组"
+    },
+    "secure-application": {
+        "zh": "安全应用"
+    },
+    "download-certificate": {
+        "zh": "下载证书"
+    },
+    "sw-load": {
+        "zh": "软件版本"
+    },
+    "software-location": {
+        "zh": "软件位置"
+    },
+    "sw-control-rule": {
+        "zh": "软件控制规则"
+    },
+    "sw-container": {
+        "zh": "软件容器"
+    },
+    "transfer-status": {
+        "zh": "传输状态"
+    },
+    "syslog": {
+        "zh": "系统日志"
+    },
+    "log-file": {
+        "zh": "日志文件"
+    },
+    "log-console": {
+        "zh": "日志控制台"
+    },
+    "log-server": {
+        "zh": "日志服务器"
+    },
+    "type": {
+        "zh": "类型"
+    },
+    "entity": {
+        "zh": "对象"
+    },
+    "dns-server": {
+        "zh": "DNS服务器"
+    },
+    "tool": {
+        "zh": "工具"
+    },
+    "ospf-instance": {
+        "zh": "OSPF实例"
+    },
+    "cancel-upgrade": {
+        "zh": "取消升级"
+    },
+    "manifest": {
+        "zh": "清单"
+    },
+    "download": {
+        "zh": "下载"
+    },
+    "alarm": {
+        "zh": "告警"
+    },
+    "event": {
+        "zh": "事件"
+    },
+    "alarm-profile": {
+        "zh": "告警参数"
+    },
+    "profile": {
+        "zh": "参数"
+    },
+    "cross-connection": {
+        "zh": "交叉连接"
+    },
+    "service-view": {
+        "zh": "业务视图"
+    },
+    "total-discarded-tlvs": {
+        "en": "Total Discarded TLVs"
+    },
+    "total-unrecognized-tlvs": {
+        "en": "Total Unrecognized TLVs"
+    },
+    "snmpv3-user": {
+        "en": "SNMPv3 User",
+        "zh": "SNMPv3用户"
+    },
+    "snmpv3-user-name": {
+        "en": "SNMPv3 User Name",
+        "zh": "SNMPv3用户名称"
+    },
+    "snmp-community": {
+        "zh": "SNMP社区"
+    },
+    "snmp-target": {
+        "zh": "SNMP目标"
+    },
+    "topology": {
+        "en": "Topology",
+        "zh": "拓扑"
+    },
+    "application-description-table": {
+        "en": "Application Description (gadt)",
+        "zh": "应用描述(gadt)"
+    },
+    "no-matching-objects": {
+        "en": "No matching objects can be updated.",
+        "zh": "没有可以被修改的匹配对象."
+    },
+    "are_you_sure_to_reset": {
+        "en": "Are your sure to reset the {0}.",
+        "zh": "你确定要重设这个{}."
+    },
+    "password-mismatch": {
+        "en": "Password mismatch!",
+        "zh": "密码不一致，请确认。"
+    },
+    "user-name-required": {
+        "en": "User name is required.",
+        "zh": "请输入用户名。"
+    },
+    "password-required": {
+        "en": "Password/Confirm Password is required.",
+        "zh": "请输入密码/确认密码。"
+    },
+    "management-address-report": {
+        "en": "Management Address",
+        "zh": "Management Address"
+    },
+    "custom-tlv-report": {
+        "en": "Custom TLV",
+        "zh": "Custom TLV"
+    },
+    "all-software-loads": {
+        "en": "Software Loads",
+        "zh": "Software Loads"
+    },
+    "eth-zr": {
+        "en": "EthZR",
+        "zh": "EthZR"
+    },
+    "flexo": {
+        "en": "FlexO",
+        "zh": "FlexO"
+    },
+    "flexo-group": {
+        "en": "FlexO Group",
+        "zh": "FlexO Group"
+    },
+    "create-eth-zr": {
+        "en": "Create EthZR",
+        "zh": "创建 EthZR"
+    },
+    "create-flexo-group": {
+        "en": "Create FlexO Group",
+        "zh": "创建FlexO Group"
+    },
+    "eventTime": {
+        "en": "Event Time",
+        "zh": "Event Time"
+    },
+    "load-history-data": {
+        "en": "Load history alarm/event",
+        "zh": "加载历史告警和事件"
+    },
+    "pls_select_records_1st": {
+        "en": "Please select records at first!",
+        "zh": "请先选择数据!"
+    },
+    "optical-carrier.advanced-parameter": {
+        "en": "Advanced Parameter",
+        "zh": "Advanced Parameter"
+    },
+    "tom.advanced-parameter": {
+        "en": "Advanced Parameter",
+        "zh": "Advanced Parameter"
+    },
+    "password-expired": {
+        "en": "Password has expired! Please change password!",
+        "zh": "密码已到期，请修改密码！"
+    },
+    "protection": {
+        "zh": "保护"
+    },
+    "get-log": {
+        "zh": "获取日志"
+    },
+    "protocol": {
+        "zh": "协议"
+    },
+    "clear-log": {
+        "zh": "清除日志"
+    },
+    "log-file-upload": {
+        "zh": "上传日志文件"
+    },
+    "clear-result": {
+        "zh": "清除"
+    },
+    "show-table": {
+        "zh": "显示表格"
+    },
+    "download-database": {
+        "zh": "下载数据库"
+    },
+    "activate-database": {
+        "zh": "激活数据库"
+    },
+    "take-snapshot": {
+        "zh": "快照"
+    },
+    "clear-database": {
+        "zh": "清除数据库"
+    },
+    "dial-out": {
+        "en": "Dial-out",
+        "zh": "拨出"
+    },
+    "dial-out-server": {
+        "en": "Dial-out Server",
+        "zh": "拨出服务器"
+    },
+    "documentation": {
+        "en": "Help",
+        "zh": "帮助"
+    },
+    "payload-type-filter" : {
+        "en" : "Payload Type",
+        "zh" : "速率类型"
+    },
+    "arc-behavior": {
+        "en": "ARC Behavior",
+        "zh": "告警控制"
+    },
+    "source" : {
+        "en": "Source",
+        "zh": "来源"
+    },
+    "echo" : {
+        "en": "Echo",
+        "zh": "Echo"
+    },
+    "error-option" : {
+        "en": "Error Option",
+        "zh": "错误选项"
+    },
+    "replace" : {
+        "en": "Replace",
+        "zh": "替换"
+    },
+    "card-mismatch": {
+        "en": "Mismatch!<br>real card：{0}<br>pre-provisioning card: {1}",
+        "zh": "预配卡与真实卡不匹配!<br>真实卡：{0}<br>预配卡：{1}"
+    },
+    "card-pre-provision": {
+        "en": "Pre-provisioning card：{0}<br>no real card",
+        "zh": "预配卡: {0}<br>无真实卡"
+    },
+    "card-no-pre-provision": {
+        "en": "Real card: {0}<br>no pre-provisioning card",
+        "zh": "真实卡: {0}<br>无预配信息"
+    },
+    "filter-port" : {
+        "en": "Port",
+        "zh": "端口"
+    },
+    "filter-slot" : {
+        "en": "Slot",
+        "zh": "插槽"
+    },
+    "slot.inventory.current-fw": {
+        "en": "Current FW",
+        "zh": "Current FW"
+    },
+    "ikev2":{
+        "en": "IKEv2"
+    },
+    "ikev2-local-instance":{
+        "en": "IKEv2 Local Instance"
+    },
+    "ikev2-peer":{
+        "en": "IKEv2 Peer"
+    },
+    "upload" : {
+        "en": "Upload",
+        "zh": "上传"
+    },
+    "activate" : {
+        "en": "Activate",
+        "zh": "激活"
+    },
+    "change-ztp-mode" : {
+        "en": "Change ZTP Mode",
+        "zh": "修改ZTP模式"
+    },
+    "data-path-encryption" : {
+        "en": "Data Path Encryption",
+        "zh": "数据路径加密"
+    },
+    "tom-type" : {
+        "en": "TOM Type",
+        "zh": "TOM类型"
+    },
+    "policies" : {
+        "en": "Policies",
+        "zh": "规则"
+    },
+    "http-file-server" : {
+        "en": "Http File Server",
+        "zh": "Http文件服务器"
+    },
+    "script" : {
+        "en": "Script",
+        "zh": "脚本"
+    },
+    "download" : {
+        "en": "Download",
+        "zh": "下载"
+    },
+    "cli-command" : {
+        "en" : "CLI Window",
+        "zh" : "CLI命令"
+    },
+    "file-path": {
+        "en": "File Path"
+    },
+    "new-file-path": {
+        "en": "New File Path"
+    },
+    "ethzr-server" : {
+        "en": "ethZR Service",
+        "zh": "ethZR服务"
+    },
+    "re-key-frequency": {
+        "en": "Re-key Frequency"
+    },
+    "re-key-fail-policy": {
+        "en": "Re-key Fail Policy"
+    },
+    "software-location.software-load": {
+        "en" : "SW Load",
+        "zh" : "SW Load"
+    },
+    "software-location.software-load.sw-component": {
+        "en" : "SW Component",
+        "zh" : "SW Component"
+    },
+    "filter-ethzr-server" : {
+        "en" : "EthZR Service",
+        "zh" : "EthZR服务"
+    },
+    "dt-encapsulation" : {
+        "en": "DT Encapsulation",
+        "zh": "DT Encapsulation"
+    },
+    "ike-sa-proposal" : {
+        "en": "IKE SA Proposal"
+    },
+    "re-key-frequency" : {
+        "en": "Re Key Frequency"
+    },
+    "dose-not-support" : {
+        "en" : "<b class='color_warning_mgs'>{0}</b> doesn't support this feature!"
+    }
+}

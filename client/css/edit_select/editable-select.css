@@ -1,0 +1,40 @@
+input.editable-select {
+    /*background: url("../../img/react_table/arrow-down.png") right center no-repeat;*/
+}
+
+.editable-select-options {
+    position: absolute;
+    display: none;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: white;
+    z-index: 99999999;
+}
+
+.editable-select-iframe {
+    position: absolute;
+    z-index: 99999999;
+    display: none;
+}
+
+.editable-select-options ul {
+    margin: 0;
+    padding: 0;
+    z-index: 99999999;
+    border: 1px solid #7b9dd4;
+    list-style: none;
+    list-style-image: none;
+}
+
+.editable-select-options li {
+    cursor: default;
+    background: #6b6b6b;
+    padding: 2px 4px;
+}
+
+.editable-select-options li.selected {
+    background: #1e90ff;
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+#react_collapse_table_body_topo {
+    align-self: flex-start;
+    margin: 10px 0;
+    flex-direction: row;
+}
+
+.table-server-view-flex {
+    flex-flow: column;
+    display: flex;
+    flex: 1;
+    /*overflow: hidden;*/
+}
+
+.table-server-view {
+    display: block;
+    /*flex-direction: column;*/
+    /*flex: 1;*/
+    /*overflow: hidden;*/
+    height: 100%;
+}
+
+.table-server-view-relate {
+    margin: 0 10px 10px 10px;
+}
+
+.myChart {
+    margin: 0 10px;
+    height: 100%;/*600px;*/
+    overflow: auto;
+}

@@ -1,0 +1,387 @@
+{
+  "ne": {
+    "ne-name": "",
+    "label": "",
+    "ne-type": "",
+    "oper-state": "",
+    "equipment": {
+      "chassis": {
+        "name": "",
+        "label": "",
+        "required-type": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "alias-name": "",
+        "AID": "",
+        "slot": {
+          "name": "",
+          "AID": "",
+          "oper-state": "",
+          "avail-state": "",
+          "supported-type": "",
+          "installed-type": "",
+          "current-equipment": "",
+          "inventory": {
+            "actual-type": "",
+            "actual-subtype": "",
+            "PON": ""
+          }
+        },
+        "inventory": {
+          "PON": ""
+        }
+      },
+      "card": {
+        "name": "",
+        "AID": "",
+        "required-type": "",
+        "required-subtype": "",
+        "chassis-name": "",
+        "slot-name": "",
+        "alias-name": "",
+        "label": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "category": "",
+        "port": {
+          "name": "",
+          "AID": "",
+          "label": "",
+          "alias-name": "",
+          "hosted-facilities": "",
+          "hosted-interface": "",
+          "admin-state": "",
+          "oper-state": "",
+          "avail-state": "",
+          "port-type": "",
+          "actual-type": "",
+          "supported-type": "",
+          "parent-port": "",
+          "tom": {
+            "AID": "",
+            "phy-mode": "",
+            "label": "",
+            "required-type": "",
+            "required-subtype": "",
+            "alias-name": "",
+            "admin-state": "",
+            "avail-state": "",
+            "oper-state": "",
+            "enable-advanced-parameters": ""
+          },
+          "inventory": {
+            "PON": ""
+          }
+        },
+        "resources": {
+          "unassigned-carriers": ""
+        },
+        "controller-card": {
+          "redundancy-status": "",
+          "redundancy-standby-status": "",
+          "number-of-switchover-events": ""
+        }
+      }
+    },
+    "system": {
+      "networking": {
+        "interface": {
+          "if-name": "",
+          "if-type": "",
+          "admin-state": "",
+          "oper-state": "",
+          "avail-state": "",
+          "ipv6-enabled": "",
+          "ipv4-enabled": ""
+        },
+        "routing": {
+          "ospf-instance": {
+            "instance-id": "",
+            "router-id": ""
+          }
+        }
+      },
+      "sw-management": {
+        "software-load": {
+          "swload-version": "",
+          "swload-label": "",
+          "swload-state": "active",
+          "swload-delta-label": ""
+        }
+      },
+      "security": {
+        "session": {
+          "session-id": ""
+        },
+        "user": {
+          "user-name": "",
+          "user-group": ""
+        }
+      },
+      "transfer": {
+        "transfer-status": ""
+      }
+    },
+    "facilities": {
+      "super-channel-group": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": ""
+      },
+      "super-channel": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "carriers": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": "",
+        "carrier-mode": "",
+        "spectral-bandwidth": ""
+      },
+      "optical-carrier": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": "",
+        "enable-advanced-parameters": "",
+        "frequency": "",
+		"carrier-type": "",
+		"rate": ""
+      },
+      "otu": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": "",
+        "otu-type": "",
+		"loopback": ""
+      },
+      "odu": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "parent-odu": "",
+        "managed-by": "",
+        "rate": "",
+        "odu-type": "",
+        "class": "",
+        "available-time-slots": "",
+        "total-time-slots": "",
+		"loopback": ""
+      },
+      "optical-channel": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": ""
+      },
+      "trib-ptp": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": "",
+        "service-type": ""
+      },
+      "ethernet": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": "",
+        "tx-mapping-mode": "",
+        "line-port": "",
+        "time-slots": "",
+        "speed": "",
+		"loopback": ""
+      },
+      "comm-channel": {
+        "name": "",
+        "AID": "",
+        "label": "",
+        "supporting-card": "",
+        "supporting-port": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "admin-state": "",
+        "oper-state": "",
+        "avail-state": "",
+        "managed-by": ""
+      },
+      "line-ptp": {
+        "name": "",
+        "managed-by": "",
+        "avail-state": "",
+        "oper-state": "",
+        "admin-state": "",
+        "AID": "",
+        "label": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "supporting-port": "",
+        "supporting-card": "",
+        "line-system-mode": "",
+		"service-type": ""
+      },
+      "flexo": {
+        "name": "",
+        "managed-by": "",
+        "avail-state": "",
+        "oper-state": "",
+        "admin-state": "",
+        "AID": "",
+        "label": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "supporting-port": "",
+        "supporting-card": ""
+      },
+      "flexo-group": {
+        "name": "",
+        "managed-by": "",
+        "avail-state": "",
+        "oper-state": "",
+        "admin-state": "",
+        "AID": "",
+        "label": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "supporting-port": "",
+        "supporting-card": "",
+        "modulation-format": "",
+        "rate": "",
+        "carriers": ""
+      },
+      "eth-zr": {
+        "name": "",
+        "managed-by": "",
+        "avail-state": "",
+        "oper-state": "",
+        "admin-state": "",
+        "AID": "",
+        "label": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "supporting-port": "",
+        "supporting-card": "",
+        "modulation-format": "",
+        "rate": "",
+        "total-time-slots": "",
+        "available-time-slots": ""
+      },
+      "stm": {
+        "name": "",
+        "managed-by": "",
+        "avail-state": "",
+        "oper-state": "",
+        "admin-state": "",
+        "AID": "",
+        "label": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "supporting-port": "",
+        "supporting-card": "",
+        "stm-type": "",
+        "rate": "",
+		"loopback": ""
+      },
+      "oc": {
+        "name": "",
+        "managed-by": "",
+        "avail-state": "",
+        "oper-state": "",
+        "admin-state": "",
+        "AID": "",
+        "label": "",
+        "supported-facilities": "",
+        "supporting-facilities": "",
+        "supporting-port": "",
+        "supporting-card": "",
+        "oc-type": "",
+        "rate": "",
+		"loopback": ""
+      }
+    },
+    "services": {
+      "xcon": ""
+    },
+    "system-capabilities": {
+      "equipment-capabilities": {
+        "supported-chassis": {
+          "chassis-type": "",
+          "supported-slot": {
+            "slot-name": "",
+            "possible-card-types": ""
+          }
+        }
+      }
+    },
+    "protection": {
+      "protection-group": {
+        "name": "",
+        "AID": ""
+      }
+    }
+  },
+  "alarms": {
+    "current-alarms": {
+      "alarm": ""
+    }
+  }
+}

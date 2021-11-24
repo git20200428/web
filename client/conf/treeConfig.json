@@ -1,0 +1,386 @@
+{
+    "facility": {
+        "ne": {
+            "@key": "ne-name",
+            "@show": "false",
+            "@fid": "ne-{1}",
+            "@param": "{\"1\" :\"ne-name\"}",
+            "chassis": {
+                "slot": {
+                    "card": {
+                        "super-channel": {
+                            "optical-channel": {
+                                "otu": {
+                                    "odu": {
+                                        "odu": {
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        },
+                                        "@fid": "odu-{1}",
+                                        "@key": "odu-id",
+                                        "@param": "{\"1\" :\"odu-id\"}"
+                                    },
+                                    "@fid": "otu-{1}",
+                                    "@key": "otu-id",
+                                    "@param": "{\"1\":\"otu-id\"}"
+                                },
+                                "@fid": "optical-channel-{1}",
+                                "@key": "optical-channel-id",
+                                "@param": "{\"1\":\"optical-channel-id\"}"
+                            },
+                            "optical-carrier": {
+                                "@fid": "optical-carrier-{1}",
+                                "@key": "optical-carrier-id",
+                                "@param": "{\"1\" : \"optical-carrier-id\"}",
+                                "comm-channel": {
+                                    "@fid": "comm-channel-{1}",
+                                    "@key": "comm-channel-id",
+                                    "@param": "{\"1\" : \"comm-channel-id\"}"
+                                }
+                            },
+                            "@fid": "super-channel-{1}",
+                            "@key": "super-channel-id",
+                            "@param": "{\"1\" : \"super-channel-id\"}"
+                        },
+                        "super-channel-group": {
+                            "@fid": "super-channel-group-{1}",
+                            "@key": "super-channel-group-id",
+                            "@param": "{\"1\" :\"super-channel-group-id\"}"
+                        },
+                        "port": {
+                            "port": {
+                                "@key": "port-id",
+                                "@show": "false",
+                                "@fid": "port-{1}-{2}-{3}",
+                                "@param": "{\"1\" :\"chassis-id\", \"2\" :\"slot-id\", \"3\" :\"port-id\"}",
+                                "@nextType": "tom",
+                                "trib-ptp": {
+                                    "ethernet": {
+                                        "@fid": "ethernet-{1}",
+                                        "@key": "ethernet-id",
+                                        "@param": "{\"1\" :\"ethernet-id\"}",
+                                        "odu": {
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        }
+                                    },
+                                    "otu": {
+                                        "@fid": "otu-{1}",
+                                        "@key": "otu-id",
+                                        "@param": "{\"1\" :\"otu-id\"}",
+                                        "odu": {
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}",
+                                            "odu": {
+                                                "@fid": "odu-{1}",
+                                                "@key": "odu-id",
+                                                "@param": "{\"1\" :\"odu-id\"}"
+                                            }
+                                        }
+                                    },
+                                    "optical-carrier" : {
+                                        "@fid": "optical-carrier-{1}",
+                                        "@key": "optical-carrier-id",
+                                        "@param": "{\"1\" :\"optical-carrier-id\"}",
+                                        "odu": {
+                                            "@fid": "optical-carrier-{1}",
+                                            "@key": "optical-carrier-id",
+                                            "@param": "{\"1\" :\"optical-carrier-id\"}"
+                                        },
+                                        "ethernet": {
+                                            "@fid": "ethernet-{1}",
+                                            "@key": "ethernet-id",
+                                            "@param": "{\"1\" :\"ethernet-id\"}"
+                                        }
+                                    },
+                                    "stm" : {
+                                        "@fid": "stm-{1}",
+                                        "@key": "stm-id",
+                                        "@param": "{\"1\" :\"stm-id\"}",
+                                        "odu": {
+                                            "odu": {
+                                                "@fid": "odu-{1}",
+                                                "@key": "odu-id",
+                                                "@param": "{\"1\" :\"odu-id\"}"
+                                            },
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        }
+                                    },
+                                    "oc" : {
+                                        "@fid": "oc-{1}",
+                                        "@key": "oc-id",
+                                        "@param": "{\"1\" :\"oc-id\"}",
+                                        "odu": {
+                                            "odu": {
+                                                "@fid": "odu-{1}",
+                                                "@key": "odu-id",
+                                                "@param": "{\"1\" :\"odu-id\"}"
+                                            },
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        }
+                                    },
+                                    "@fid": "trib-ptp-{1}",
+                                    "@key": "trib-ptp-id",
+                                    "@param": "{\"1\" :\"trib-ptp-id\"}"
+                                },
+                                "line-ptp": {
+                                    "@fid": "line-ptp-{1}",
+                                    "@key": "line-ptp-id",
+                                    "@param": "{\"1\" :\"line-ptp-id\"}",
+                                    "optical-carrier": {
+                                        "@fid": "optical-carrier-{1}",
+                                        "@key": "optical-carrier-id",
+                                        "@param": "{\"1\" : \"optical-carrier-id\"}",
+                                        "flexo" : {
+                                            "@fid": "flexo-{1}",
+                                            "@key": "flexo-id",
+                                            "@param": "{\"1\" : \"flexo-id\"}",
+                                            "flexo-group": {
+                                                "@fid": "flexo-group-{1}",
+                                                "@key": "flexo-group-id",
+                                                "@param": "{\"1\" :\"flexo-group-id\"}",
+                                                "otu": {
+                                                    "odu": {
+                                                        "odu": {
+                                                            "@fid": "odu-{1}",
+                                                            "@key": "odu-id",
+                                                            "@param": "{\"1\" :\"odu-id\"}"
+                                                        },
+                                                        "@fid": "odu-{1}",
+                                                        "@key": "odu-id",
+                                                        "@param": "{\"1\" :\"odu-id\"}"
+                                                    },
+                                                    "@fid": "otu-{1}",
+                                                    "@key": "otu-id",
+                                                    "@param": "{\"1\":\"otu-id\"}"
+                                                }
+                                            }
+                                        },
+                                        "eth-zr" : {
+                                            "@fid": "eth-zr-{1}",
+                                            "@key": "eth-zr-id",
+                                            "@param": "{\"1\" : \"eth-zr-id\"}"
+                                        },
+                                        "otu": {
+                                            "odu": {
+                                                "odu": {
+                                                    "@fid": "odu-{1}",
+                                                    "@key": "odu-id",
+                                                    "@param": "{\"1\" :\"odu-id\"}"
+                                                },
+                                                "@fid": "odu-{1}",
+                                                "@key": "odu-id",
+                                                "@param": "{\"1\" :\"odu-id\"}"
+                                            },
+                                            "@fid": "otu-{1}",
+                                            "@key": "otu-id",
+                                            "@param": "{\"1\":\"otu-id\"}"
+                                        }
+                                    }
+                                }
+                            },
+                            "trib-ptp": {
+                                "ethernet": {
+                                    "@fid": "ethernet-{1}",
+                                    "@key": "ethernet-id",
+                                    "@param": "{\"1\" :\"ethernet-id\"}",
+                                    "odu": {
+                                        "@fid": "odu-{1}",
+                                        "@key": "odu-id",
+                                        "@param": "{\"1\" :\"odu-id\"}"
+                                    }
+                                },
+                                "otu": {
+                                    "@fid": "otu-{1}",
+                                    "@key": "otu-id",
+                                    "@param": "{\"1\" :\"otu-id\"}",
+                                    "odu": {
+                                        "@fid": "odu-{1}",
+                                        "@key": "odu-id",
+                                        "@param": "{\"1\" :\"odu-id\"}",
+                                        "odu": {
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        }
+                                    }
+                                },
+                                "optical-carrier" : {
+                                    "@fid": "optical-carrier-{1}",
+                                    "@key": "optical-carrier-id",
+                                    "@param": "{\"1\" :\"optical-carrier-id\"}",
+                                    "odu": {
+                                        "@fid": "optical-carrier-{1}",
+                                        "@key": "optical-carrier-id",
+                                        "@param": "{\"1\" :\"optical-carrier-id\"}"
+                                    },
+                                    "ethernet": {
+                                        "@fid": "ethernet-{1}",
+                                        "@key": "ethernet-id",
+                                        "@param": "{\"1\" :\"ethernet-id\"}"
+                                    }
+                                },
+                                "stm" : {
+                                    "@fid": "stm-{1}",
+                                    "@key": "stm-id",
+                                    "@param": "{\"1\" :\"stm-id\"}",
+                                    "odu": {
+                                        "odu": {
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        },
+                                        "@fid": "odu-{1}",
+                                        "@key": "odu-id",
+                                        "@param": "{\"1\" :\"odu-id\"}"
+                                    }
+                                },
+                                "oc" : {
+                                    "@fid": "oc-{1}",
+                                    "@key": "oc-id",
+                                    "@param": "{\"1\" :\"oc-id\"}",
+                                    "odu": {
+                                        "odu": {
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        },
+                                        "@fid": "odu-{1}",
+                                        "@key": "odu-id",
+                                        "@param": "{\"1\" :\"odu-id\"}"
+                                    }
+                                },
+                                "@fid": "trib-ptp-{1}",
+                                "@key": "trib-ptp-id",
+                                "@param": "{\"1\" :\"trib-ptp-id\"}"
+                            },
+                            "line-ptp": {
+                                "@fid": "line-ptp-{1}",
+                                "@key": "line-ptp-id",
+                                "@param": "{\"1\" :\"line-ptp-id\"}",
+                                "optical-carrier": {
+                                    "@fid": "optical-carrier-{1}",
+                                    "@key": "optical-carrier-id",
+                                    "@param": "{\"1\" : \"optical-carrier-id\"}",
+                                    "flexo" : {
+                                        "@fid": "flexo-{1}",
+                                        "@key": "flexo-id",
+                                        "@param": "{\"1\" : \"flexo-id\"}",
+                                        "flexo-group": {
+                                            "@fid": "flexo-group-{1}",
+                                            "@key": "flexo-group-id",
+                                            "@param": "{\"1\" :\"flexo-group-id\"}",
+                                            "otu": {
+                                                "odu": {
+                                                    "odu": {
+                                                        "@fid": "odu-{1}",
+                                                        "@key": "odu-id",
+                                                        "@param": "{\"1\" :\"odu-id\"}"
+                                                    },
+                                                    "@fid": "odu-{1}",
+                                                    "@key": "odu-id",
+                                                    "@param": "{\"1\" :\"odu-id\"}"
+                                                },
+                                                "@fid": "otu-{1}",
+                                                "@key": "otu-id",
+                                                "@param": "{\"1\":\"otu-id\"}"
+                                            }
+                                        }
+                                    },
+                                    "eth-zr" : {
+                                        "@fid": "eth-zr-{1}",
+                                        "@key": "eth-zr-id",
+                                        "@param": "{\"1\" : \"eth-zr-id\"}"
+                                    },
+                                    "otu": {
+                                        "odu": {
+                                            "odu": {
+                                                "@fid": "odu-{1}",
+                                                "@key": "odu-id",
+                                                "@param": "{\"1\" :\"odu-id\"}"
+                                            },
+                                            "@fid": "odu-{1}",
+                                            "@key": "odu-id",
+                                            "@param": "{\"1\" :\"odu-id\"}"
+                                        },
+                                        "@fid": "otu-{1}",
+                                        "@key": "otu-id",
+                                        "@param": "{\"1\":\"otu-id\"}"
+                                    }
+                                }
+                            },
+                            "@key": "port-id",
+                            "@show": "false",
+                            "@fid": "port-{1}-{2}-{3}",
+                            "@param": "{\"1\" :\"chassis-id\", \"2\" :\"slot-id\", \"3\" :\"port-id\"}",
+                            "@nextType": "tom"
+                        },
+                        "@fid": "card-{1}",
+                        "@key": "card-id",
+                        "@param": "{\"1\" :\"card-id\"}",
+                        "@important": "[\"required-type\"]",
+                        "@cardmode": "[\"card-mode\"]",
+                        "@filter": "{\"required-type\":\"lineCardType\"}"
+                    },
+                    "@nodeType": "slot",
+                    "@show": "false",
+                    "@key": "slot-id",
+                    "@fid": "slot-{1}-{2}",
+                    "@param": "{\"1\" :\"chassis-id\", \"2\" :\"slot-id\"}"
+                },
+                "@key": "chassis-id",
+                "@fid": "chassis-{1}",
+                "@param": "{\"1\" :\"chassis-id\"}"
+            }
+        }
+    },
+    "equipment": {
+        "ne": {
+            "chassis": {
+                "slot": {
+                    "card": {
+                        "port": {
+                            "tom": {
+                                "@fid": "tom-{0}-{1}",
+                                "@key": "AID",
+                                "@param": "{\"0\" :\"card-id\",\"1\":\"port-id\"}"
+                            },
+                            "@key": "port-id",
+                            "@fid": "{0}-{1}-{2}-{3}",
+                            "@param": "{\"0\": \"port-type\",\"1\" :\"chassis-id\", \"2\" :\"slot-id\", \"3\" :\"port-id\"}",
+                            "@nextType": "tom",
+                            "port": {
+                                "@key": "port-id",
+                                "@fid": "{0}-{1}-{2}-{3}",
+                                "@param": "{\"0\": \"port-type\",\"1\" :\"chassis-id\", \"2\" :\"slot-id\", \"3\" :\"port-id\"}"
+                            }
+                        },
+                        "@key": "card-id",
+                        "@fid": "card-{1}",
+                        "@param": "{\"1\" :\"card-id\"}",
+                        "@important": "[\"required-type\"]",
+                        "@cardmode": "[\"card-mode\"]"
+                    },
+                    "@nodeType": "slot",
+                    "@key": "slot-id",
+                    "@fid": "slot-{1}-{2}",
+                    "@param": "{\"1\" :\"chassis-id\", \"2\" :\"slot-id\"}"
+                },
+                "@key": "chassis-id",
+                "@fid": "chassis-{1}",
+                "@param": "{\"1\" :\"chassis-id\"}"
+            },
+            "@key": "ne-name",
+            "@show": "false",
+            "@fid": "ne-{1}",
+            "@param": "{\"1\" :\"ne-name\"}"
+        }
+    }
+}
